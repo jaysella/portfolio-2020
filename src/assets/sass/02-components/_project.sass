@@ -1,0 +1,71 @@
+.project
+    display: grid
+    padding: 2.5rem
+    background-color: $whiter
+    grid-template-columns: 100%
+    grid-gap: 2rem
+
+    &.featured:not(:last-of-type)
+        margin-bottom: 2.5rem
+
+    h4
+        position: relative
+        text-transform: uppercase
+        font-family: $font-family
+        font-weight: 300
+        margin-bottom: .2rem
+        font-size: .8rem
+        z-index: 2
+
+        // &:before
+        //     position: absolute
+        //     content: ''
+        //     top: -7.5px
+        //     left: -7.5px
+        //     background-color: $accent
+        //     width: 15px
+        //     height: 15px
+        //     z-index: -1
+
+    p
+        margin: 0
+        
+    .left, .inner
+        display: grid
+        grid-template-rows: repeat(99, max-content) 1fr
+
+        .info
+            text-transform: uppercase
+            cursor: not-allowed
+
+    .actions
+        margin-top: 2rem
+        grid-row: last
+        
+        a
+            display: inline-block
+            text-decoration: none
+            color: $black
+            font-weight: 700
+            border: 1px solid $accent
+            padding: 5px 15px
+            transition: all .5s ease
+
+            span
+                display: inline-block
+                transition: all .5s ease
+                margin-left: 5px
+
+            &:hover
+                background: $accent
+
+                span
+                    transform: translateX(1.5rem) scale(1.5)
+    
+    // .right > *
+    //     border: 2px solid $accent
+
++desktop
+    .project
+        &.featured
+            grid-template-columns: 40% calc(60% - 2rem)

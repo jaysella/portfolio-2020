@@ -1,0 +1,39 @@
+@import '../assets/sass/01-abstracts/abstracts'
+
+.hero
+    margin-top: 5rem
+    padding: 20px 25px 1px 0
+    position: sticky
+    top: 0
+    background: $white
+    width: fit-content
+    z-index: 10
+
+    .preheader
+        margin-bottom: 0
+
+    h1 > span
+        position: relative
+        display: inline-block
+
+        &::before
+            position: absolute
+            content: ' '
+            bottom: 0
+            left: .25em
+            width: 97.5%
+            height: .8em
+            z-index: -1
+            background: linear-gradient(180deg,rgba(255,255,255,0) 50%, $accent 50%)
+
+.projects
+    display: grid
+    grid-template-columns: 100%
+    grid-gap: 1.25rem
+
++desktop
+    .other_projects
+        width: 120%
+        margin-left: -10%
+    .projects
+        grid-template-columns: repeat(3, 1fr)
