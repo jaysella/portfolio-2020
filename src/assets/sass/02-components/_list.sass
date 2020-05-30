@@ -1,0 +1,30 @@
+@import '../../assets/sass/01-abstracts/abstracts'
+
+.list
+	padding: 1.5rem
+	position: relative
+	list-style: none
+	margin: 0
+	transition: box-shadow .2s ease
+
+	li
+		margin: 0
+		padding-left: 2rem
+
+		&:not(:first-of-type)
+			padding-top: .5rem
+
+		&:before
+			position: absolute
+			left: 1.25rem
+			content: '→ '
+			font-size: 1.5em
+			color: $accent
+	
+	a
+		text-decoration: none
+		color: inherit
+		transition: all .2s ease
+
+		&:hover
+			background-color: $accent

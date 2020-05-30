@@ -35,6 +35,11 @@ export const photos = [
 		height: 684
 	},
 	{
+		src: "/gallery/mbm-shirt-pink.jpg",
+		width: 1,
+		height: 1
+	},
+	{
 		src: "/gallery/yearbook-cover.png",
 		width: 357,
 		height: 229
@@ -55,9 +60,24 @@ export const photos = [
 		height: 11
 	},
 	{
+		src: "/gallery/mbm-shirt-kids.jpg",
+		width: 1,
+		height: 1
+	},
+	{
 		src: "/gallery/spoonriver-web.png",
 		width: 2858,
 		height: 1616
+	},
+	{
+		src: "/gallery/spc-logo.png",
+		width: 1851,
+		height: 600
+	},
+	{
+		src: "/gallery/middlesex-beach-2020-parking-pass.png",
+		width: 1367,
+		height: 672
 	},
 	{
 		src: "/gallery/spc-townhall-invite.png",
@@ -65,9 +85,9 @@ export const photos = [
 		height: 2
 	},
 	{
-		src: "/gallery/middlesex-beach-2020-parking-pass.png",
-		width: 1367,
-		height: 672
+		src: "/gallery/mbm-shirt-blue.jpg",
+		width: 1,
+		height: 1
 	},
 	{
 		src: "/gallery/spc-invited.png",
@@ -93,6 +113,11 @@ export const photos = [
 		src: "/gallery/sra-initial.png",
 		width: 16,
 		height: 9
+	},
+	{
+		src: "/gallery/mbm-umbrella.jpg",
+		width: 1,
+		height: 1
 	},
 	{
 		src: "/gallery/spc-ctn-evolution.png",

@@ -1,9 +1,20 @@
 @import '../../assets/sass/01-abstracts/abstracts'
 
 .summary
-    margin-bottom: 3rem
+    margin: 0 auto 3rem auto
     padding: 2.5rem
     background-color: $whiter
+    width: calc(100% - 10px)
+
+    // box-shadow: -10px 10px $accent
+    outline: 5px solid $accent
+    // transition: box-shadow .2s ease
+    transition: outline .2s ease
+
+    &:hover
+        // box-shadow: -15px 15px $accent
+        // outline: 10px solid $accent
+        // box-shadow: 0 0 80px rgba($accent, .1)
     
     p
         margin: 0

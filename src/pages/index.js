@@ -53,7 +53,10 @@ class IndexPage extends Component {
 								<p>Project entailed redesign + overhaul of existing website to modernize user experience.</p>
 
 								<div className="actions">
-									<a href="//spcfinancial.com" target="_blank" rel="noopener noreferrer">
+									<Link to="/p/spc-financial" className="button--prominent">
+										Details <span>&rarr;</span>
+									</Link>
+									<a href="//spcfinancial.com" target="_blank" rel="noopener noreferrer" className="simple-link">
 										View Site <span>&rarr;</span>
 									</a>
 								</div>
@@ -70,12 +73,12 @@ class IndexPage extends Component {
 								<p>Project entailed complete overhaul of HOA’s website + the creation of individual user logins to ease access to protected documents. Additionally serve as primary contact person for fielding general inquiries and managing general processes.</p>
 
 								<div className="actions">
-									<a href="//middlesexbeach.org" target="_blank" rel="noopener noreferrer">
-										View Site <span>&rarr;</span>
-									</a>
-									<Link to="/p/middlesex-beach">
+									<Link to="/p/middlesex-beach" className="button--prominent">
 										Details <span>&rarr;</span>
 									</Link>
+									<a href="//middlesexbeach.org" target="_blank" rel="noopener noreferrer" className="simple-link">
+										View Site <span>&rarr;</span>
+									</a>
 								</div>
 							</div>
 							<div className="right">
@@ -90,7 +93,9 @@ class IndexPage extends Component {
 								<p>Created + managed website for a company’s rental property. Additionally facilitated communication and requests with guests before, during, and after their stay.</p>
 
 								<div className="actions">
-									<p className="info"><small>Link not available</small></p>
+									<Link to="/p/castello-ragazzi" className="button--prominent">
+										Details <span>&rarr;</span>
+									</Link>
 								</div>
 							</div>
 							<div className="right">
@@ -109,7 +114,7 @@ class IndexPage extends Component {
 									<p>Group project entailed analysis of the text + characters of Edgar Lee Masters’ Spoon River Anthology. Simultaneously covered the design + development of the ability to interact with a character web + explore character analyses.</p>
 
 									<div className="actions">
-										<a href="//spoonriver.netlify.com" target="_blank" rel="noopener noreferrer">
+										<a href="//spoonriver.netlify.com" target="_blank" rel="noopener noreferrer" className="button">
 											View Site <span>&rarr;</span>
 										</a>
 									</div>
@@ -123,7 +128,7 @@ class IndexPage extends Component {
 									<p>Assumed responsibility for managing the firm’s website to reflect staff and company informational changes.</p>
 
 									<div className="actions">
-										<a href="//sellamartinic.com" target="_blank" rel="noopener noreferrer">
+										<a href="//sellamartinic.com" target="_blank" rel="noopener noreferrer" className="button">
 											View Site <span>&rarr;</span>
 										</a>
 									</div>
@@ -154,6 +159,16 @@ IndexPage.propTypes = {
 }
 
 export default IndexPage
+
+export const projectImage = graphql`
+    fragment projectImage on File {
+        childImageSharp {
+            fluid(maxWidth: 2880, quality: 100) {
+                ...GatsbyImageSharpFluid_tracedSVG
+            }
+        }
+   }
+`
 
 export const query = graphql`
 	query {

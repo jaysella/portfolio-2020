@@ -1,19 +1,10 @@
 import React, { useState, useCallback } from 'react'
 import { graphql } from 'gatsby'
 
-import { Link } from 'gatsby'
-import Img from 'gatsby-image'
-
-import propTypes from 'prop-types'
-
 import Layout from '../components/layout'
 
-import styles from './index.module.sass'
-// import Image from '../components/image'
+// import styles from './index.module.sass'
 import SEO from '../components/seo'
-
-// import Tabs from '../components/Tabs'
-// import Tab from '../components/Tab'
 
 import Navigation from '../components/Navigation'
 
@@ -21,20 +12,20 @@ import Gallery from 'react-photo-gallery'
 import Carousel, { Modal, ModalGateway } from 'react-images'
 import { photos } from '../assets/data/gallery-photos'
 
-function IndexPage() {
+function GalleryPage() {
 
-	const [currentImage, setCurrentImage] = useState(0);
-	const [viewerIsOpen, setViewerIsOpen] = useState(false);
+	const [currentImage, setCurrentImage] = useState(0)
+	const [viewerIsOpen, setViewerIsOpen] = useState(false)
 
 	const openLightbox = useCallback((event, { photo, index }) => {
-		setCurrentImage(index);
-		setViewerIsOpen(true);
-	}, []);
+		setCurrentImage(index)
+		setViewerIsOpen(true)
+	}, [])
 
 	const closeLightbox = () => {
-		setCurrentImage(0);
-		setViewerIsOpen(false);
-	};
+		setCurrentImage(0)
+		setViewerIsOpen(false)
+	}
 
 	return (
 		<Layout>
@@ -83,24 +74,4 @@ function IndexPage() {
 	)
 }
 
-export default IndexPage
-
-export const query = graphql`
-	query {
-		spcFinancial: file(
-			relativePath: { eq: "spc-financial.png" }
-		) {
-			...projectImage
-		}
-		middlesexBeach: file(
-			relativePath: { eq: "middlesex-beach.png" }
-		) {
-			...projectImage
-		}
-		castelloRagazzi: file(
-			relativePath: { eq: "castello-ragazzi.png" }
-		) {
-			...projectImage
-		}
-	}
-`
+export default GalleryPage

@@ -1,20 +1,44 @@
-.button
+%button
 	display: inline-block
 	margin-right: 1rem
 	text-decoration: none
 	color: $black
 	font-weight: 700
-	border: 1px solid $accent
 	padding: 5px 15px
 	transition: all .5s ease
+	cursor: pointer
 
 	span
 		display: inline-block
-		transition: all .5s ease
+		transition: transform .5s ease
 		margin-left: 5px
+
+.button
+	@extend %button
+	border: $border-width solid $accent
 
 	&:hover
 		background: $accent
 
 		span
 			transform: translateX(1.5rem) scale(1.5)
+
+.button--prominent
+	@extend %button
+	background: $accent
+
+	&:hover
+		background: darken($accent, 20%)
+
+		span
+			transform: translateX(1.5rem) scale(1.5)
+
+.simple-link
+	@extend %button
+	color: $accent-alt
+
+	&:hover
+		color: darken($accent-alt, 25%)
+
+		span
+			transform: translateX(.5rem) scale(1.5)

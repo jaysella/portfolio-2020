@@ -3,9 +3,10 @@
 .toc ~ section
     margin-top: calc(2rem + 4.25vw)
     
-    article:first-of-type
-        box-shadow: -10px 10px $accent
-        transition: box-shadow .2s ease
+.work article
+    box-shadow: 10px 10px 80px rgba($black, .1)
+    transition: box-shadow .2s ease
 
-        &:hover
-            box-shadow: -15px 15px $accent
+    &:hover
+        // box-shadow: -10px 10px $accent
+        box-shadow: 0 0 80px rgba($accent, .1)
