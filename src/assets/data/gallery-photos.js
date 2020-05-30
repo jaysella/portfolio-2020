@@ -105,7 +105,7 @@ export const photos = [
 		height: 1250
 	},
 	{
-		src: "/gallery/situación-en-chile-cronología.png",
+		src: "/gallery/situacion-en-chile-cronologia.png",
 		width: 16,
 		height: 9
 	},
