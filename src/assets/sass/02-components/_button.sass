@@ -1,0 +1,20 @@
+.button
+	display: inline-block
+	margin-right: 1rem
+	text-decoration: none
+	color: $black
+	font-weight: 700
+	border: 1px solid $accent
+	padding: 5px 15px
+	transition: all .5s ease
+
+	span
+		display: inline-block
+		transition: all .5s ease
+		margin-left: 5px
+
+	&:hover
+		background: $accent
+
+		span
+			transform: translateX(1.5rem) scale(1.5)

@@ -1,0 +1,11 @@
+@import '../../assets/sass/01-abstracts/abstracts'
+
+.toc ~ section
+    margin-top: calc(2rem + 4.25vw)
+    
+    article:first-of-type
+        box-shadow: -10px 10px $accent
+        transition: box-shadow .2s ease
+
+        &:hover
+            box-shadow: -15px 15px $accent

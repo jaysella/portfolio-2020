@@ -7,14 +7,20 @@ import SEO from '../components/seo'
 
 const NotFoundPage = () => (
 	<Layout>
-		<SEO title="404: Not Found" />
+		<SEO title="Contact Me" />
 		<section className="hero">
-			<p className="preheader">Uh oh,</p>
+			<p><Link to="/" className="button">&larr; Back Home</Link></p>
+			<p className="preheader">Looking to contact me?</p>
 			<h1>
-				You're trying to go to a page that doesn't exist.
+				Let's start here...
                 <br />
 			</h1>
-			<p><Link to="/" className="button">Let's go home <span>&rarr;</span></Link></p>
+		</section>
+
+		<section>
+			<h3>Email:</h3>
+			<br/>
+			<code>jay@jaysella.dev</code>
 		</section>
 	</Layout>
 )

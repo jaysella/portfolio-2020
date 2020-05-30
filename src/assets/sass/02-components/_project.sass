@@ -3,6 +3,7 @@
     padding: 2.5rem
     background-color: $whiter
     grid-template-columns: 100%
+    grid-template-areas: 'left right'
     grid-gap: 2rem
 
     &.featured:not(:last-of-type)
@@ -29,6 +30,12 @@
 
     p
         margin: 0
+    
+    .left
+        grid-area: left
+    
+    .right
+        grid-area: right
         
     .left, .inner
         display: grid
@@ -44,6 +51,7 @@
         
         a
             display: inline-block
+            margin-right: 1rem
             text-decoration: none
             color: $black
             font-weight: 700
@@ -69,3 +77,6 @@
     .project
         &.featured
             grid-template-columns: 40% calc(60% - 2rem)
+
+        &.flipped
+            grid-template-areas: 'right left'
