@@ -22,7 +22,7 @@ const NotFoundPage = () => (
 		<section>
 			<Navigation active="contact" stuck />
 
-			<form method="post" netlify-honeypot="bot-field" data-netlify="true">
+			<form method="post" name="contact" netlify-honeypot="bot-field" data-netlify="true">
 				<input type="hidden" name="bot-field" />
 
 				<label htmlFor="name">
