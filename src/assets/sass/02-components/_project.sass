@@ -3,7 +3,7 @@
     padding: 2.5rem
     background-color: $whiter
     grid-template-columns: 100%
-    grid-template-areas: 'left right' 'additional additional'
+    grid-template-areas: 'right' 'left' 'additional'
     grid-gap: 2rem
 
     &.featured:not(:last-of-type)
@@ -17,16 +17,6 @@
         margin-bottom: .2rem
         font-size: .8rem
         z-index: 2
-
-        // &:before
-        //     position: absolute
-        //     content: ''
-        //     top: -7.5px
-        //     left: -7.5px
-        //     background-color: $accent
-        //     width: 15px
-        //     height: 15px
-        //     z-index: -1
 
     p
         margin: 0
@@ -52,10 +42,16 @@
         margin-top: 2rem
         grid-row: last
 
++tablet
+    .project
+        &.featured
+            grid-template-columns: 50% calc(50% - 2rem)
+            grid-template-areas: 'left right' 'additional additional'
+
+        &.flipped
+            grid-template-areas: 'right left' 'additional additional'
+
 +desktop
     .project
         &.featured
             grid-template-columns: 40% calc(60% - 2rem)
-
-        &.flipped
-            grid-template-areas: 'right left'
