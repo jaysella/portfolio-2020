@@ -2,10 +2,6 @@ import React, { Component } from 'react'
 import { Link } from 'gatsby'
 
 class Navigation extends Component {
-	constructor(props) {
-		super(props)
-	}
-
 	render() {
 		return (
 			<nav className={['main-nav', !!this.props.stuck ? 'stuck' : ''].join(' ')}>

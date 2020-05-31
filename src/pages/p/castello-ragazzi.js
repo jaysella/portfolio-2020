@@ -1,19 +1,16 @@
 import React, { useState, useCallback } from 'react'
 import { Link } from 'gatsby'
-import Img from 'gatsby-image'
-
-import { graphql } from 'gatsby'
 
 import Layout from '../../components/layout'
+import SEO from '../../components/seo'
 
 import styles from './project.module.sass'
-import SEO from '../../components/seo'
 
 import Gallery from 'react-photo-gallery'
 import Carousel, { Modal, ModalGateway } from 'react-images'
 import { photos } from '../../assets/data/gallery-photos'
 
-function CastelloRagazziPage({ data }) {
+function CastelloRagazziPage() {
 	const [currentImage, setCurrentImage] = useState(0)
 	const [viewerIsOpen, setViewerIsOpen] = useState(false)
 
@@ -58,8 +55,6 @@ function CastelloRagazziPage({ data }) {
 					<p>Castello Ragazzi managed a rental property along the Eastern Shore. As webmaster, I <mark>designed + developed three website iterations</mark> and served as a <mark>main point-of-contact for prospects + current guests</mark>.</p>
 				</article>
 			</section>
-
-			{/* website is most robust in the area */}
 
 			<section className={styles.work}>
 				<h3>My Work:</h3>

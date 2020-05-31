@@ -2,15 +2,15 @@ import React, { useState, useCallback } from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../../components/layout'
+import SEO from '../../components/seo'
 
 import styles from './project.module.sass'
-import SEO from '../../components/seo'
 
 import Gallery from 'react-photo-gallery'
 import Carousel, { Modal, ModalGateway } from 'react-images'
 import { photos } from '../../assets/data/gallery-photos'
 
-function SPCFinancialPage({ data }) {
+function SPCFinancialPage() {
 	const [currentImage, setCurrentImage] = useState(0)
 	const [viewerIsOpen, setViewerIsOpen] = useState(false)
 
@@ -102,7 +102,14 @@ function SPCFinancialPage({ data }) {
 						<p>Working with SPC's marketing team and to reflect the stylistic changes implemented on the website, I embarked on updating other branch materials including presentation templates, logos, and stationery such as letterhead, envelopes, and business cards. This also carried over to changes in advertising styles.</p>
 					</div>
 					<div className="right">
-						<Gallery photos={spcPhotos.filter(function (photo) { if (photo.src.includes('spc-table-topper') || photo.src.includes('spc-townhall-invite') || photo.src.includes('logo')) { return photo } })} />
+						<Gallery
+							photos={spcPhotos.filter(function (photo) {
+								if (photo.src.includes('spc-table-topper') || photo.src.includes('spc-townhall-invite') || photo.src.includes('logo') ) {
+									return photo
+								}
+								return null
+							})}
+						/>
 					</div>
 				</article>
 			</section>

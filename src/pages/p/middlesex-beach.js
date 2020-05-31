@@ -3,9 +3,9 @@ import { Link, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
 import Layout from '../../components/layout'
+import SEO from '../../components/seo'
 
 import styles from './project.module.sass'
-import SEO from '../../components/seo'
 
 import Gallery from 'react-photo-gallery'
 import Carousel, { Modal, ModalGateway } from 'react-images'
@@ -29,6 +29,7 @@ function MiddlesexBeachPage({ data }) {
         if(photo.src.includes('beach') || photo.src.includes('mbm')) {
             return photo
         }
+        return null
     }) : []
     
     return (

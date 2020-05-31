@@ -8,8 +8,7 @@ export default function HTML(props) {
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;1,700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"></link>
-        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;1,700&display=swap"></link></noscript>
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;1,700&display=swap" as="style" />
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>

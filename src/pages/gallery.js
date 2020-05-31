@@ -1,9 +1,6 @@
 import React, { useState, useCallback } from 'react'
-import { graphql } from 'gatsby'
 
 import Layout from '../components/layout'
-
-// import styles from './index.module.sass'
 import SEO from '../components/seo'
 
 import Navigation from '../components/Navigation'
