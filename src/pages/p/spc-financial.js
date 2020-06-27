@@ -44,9 +44,10 @@ function SPCFinancialPage() {
 			<aside className={styles.toc}>
 				<h3>Contents</h3>
 				<ul className="contents">
+					<li><a href="#summary">Summary</a></li>
 					<li><a href="#website">Website</a></li>
-					<li><a href="#marketing">Marketing Materials</a></li>
-					<li><a href="#gallery">Gallery</a></li>
+					<li><a href="#marketing">Marketing</a></li>
+					<li><a href="#designs">Designs</a></li>
 				</ul>
 			</aside>
 
@@ -59,13 +60,12 @@ function SPCFinancialPage() {
 
 			{/* website is most robust in the area */}
 
-			<section className={styles.work}>
-				<h3>My Work:</h3>
+			<section className={styles.project} id="website">
+				<h3>Website:</h3>
+				<p><span>&#8627;</span> Redesign + Development</p>
 
-				<article className="project featured" id="website">
+				<article className="project featured">
 					<div className="left">
-						<h4>Redesign + Development</h4>
-						<h2>Website</h2>
 						<p>In redesigning and developing from scratch the firm's new website, I worked hand-in-hand with their marketing and compliance teams, along with the firm's broker-dealer to meet and exceed compliance, security, and privacy requirements.</p>
 
 						<div className="actions">
@@ -94,28 +94,21 @@ function SPCFinancialPage() {
 						</ul>
 					</div>
 				</article>
+			</section>
+			
+			<section className={styles.project} id="marketing">
+				<h3>Marketing:</h3>
+				<p><span>&#8627;</span> Presentations, Stationery, Advertisements</p>
 
-				<article className="project featured flipped" id="marketing">
-					<div className="left">
-						<h4>Presentations, Stationery, Advertisements</h4>
-						<h2>Marketing Materials</h2>
+				<article className="project text-only">
+					<div>
 						<p>Working with SPC's marketing team and to reflect the stylistic changes implemented on the website, I embarked on updating other branch materials including presentation templates, logos, and stationery such as letterhead, envelopes, and business cards. This also carried over to changes in advertising styles.</p>
-					</div>
-					<div className="right">
-						<Gallery
-							photos={spcPhotos.filter(function (photo) {
-								if (photo.src.includes('spc-table-topper') || photo.src.includes('spc-townhall-invite') || photo.src.includes('logo') ) {
-									return photo
-								}
-								return null
-							})}
-						/>
 					</div>
 				</article>
 			</section>
 
-			<section id="gallery">
-				<h3>Gallery:</h3>
+			<section id="designs">
+				<h3>Designs:</h3>
 				<Gallery photos={spcPhotos} onClick={openLightbox} />
 			</section>
 

@@ -50,8 +50,8 @@ function MiddlesexBeachPage({ data }) {
                 <h3>Contents</h3>
                 <ul className="contents">
                     <li><a href="#website">Website</a></li>
-                    <li><a href="#marketplace">Marketplace</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#the-marketplace">The Marketplace</a></li>
+                    <li><a href="#designs">Designs</a></li>
                 </ul>
             </aside>
 
@@ -64,13 +64,12 @@ function MiddlesexBeachPage({ data }) {
 
             {/* website is most robust in the area */}
 
-            <section className={styles.work}>
-                <h3>My Work:</h3>
+            <section className={styles.project} id="website">
+                <h3>Website:</h3>
+				<p><span>&#8627;</span> Webmaster + Point-of-Contact [Volunteer]</p>
 
-                <article className="project featured" id="website">
+                <article className="project featured">
                     <div className="left">
-                        <h4>Webmaster + Point-of-Contact</h4>
-                        <h2>Website</h2>
                         <p>When I assumed control of the HOA's website, there was little-to-no style, making it near impossible to navigate and find information. I set out on a mission to build a brand new website while prioritizing the most common information, standardizing formats, and focusing on ease of navigation. Today, the Association's website is one of the most robust for any HOA in the area.</p>
 
                         <div className="actions">
@@ -83,25 +82,21 @@ function MiddlesexBeachPage({ data }) {
                         <Img fluid={data.middlesexBeach.childImageSharp.fluid} />
                     </div>
                 </article>
+            </section>
 
-                <article className="project featured flipped" id="marketplace">
-                    <div className="left">
-                        <h4>Designed + Sold Products</h4>
-                        <h2>'MXB Marketplace'</h2>
+            <section className={styles.project} id="the-marketplace">
+                <h3>The Marketplace:</h3>
+				<p><span>&#8627;</span> Designed + Sold Products [Fundraiser]</p>
+
+                <article className="project text-only">
+                    <div>
                         <p>As part of an initiative to enliven community spirit and help generate revenue to curb HOA dues, I designed and sold Middlesex-themed apparel, umbrellas, drink koozies, totes, and stickers. This also resulted in the development of a website for people to view the products, reserve their purchases, and communicate with our group.</p>
-
-                        <div className="actions">
-                            <p className="info"><small>Link no longer available</small></p>
-                        </div>
-                    </div>
-                    <div className="right">
-                        <Gallery photos={mbPhotos.filter(function (photo) { return photo.src.includes('mbm-shirt-kids') })} />
                     </div>
                 </article>
             </section>
 
-            <section id="gallery">
-				<h3>Gallery:</h3>
+            <section id="designs">
+				<h3>Designs:</h3>
 				<Gallery photos={mbPhotos} onClick={openLightbox} />
 			</section>
 

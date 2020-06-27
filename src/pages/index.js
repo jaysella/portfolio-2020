@@ -49,7 +49,7 @@ class IndexPage extends Component {
 						<article className="project featured">
 							<div className="left">
 								<h4>Design + Development</h4>
-								<h2>SPC Financial, Inc.</h2>
+								<h2>SPC Financial&reg;</h2>
 								<p>Project entailed redesign + overhaul of existing website to modernize user experience.</p>
 
 								<div className="actions">
@@ -114,7 +114,7 @@ class IndexPage extends Component {
 									<p>Group project entailed analysis of the text + characters of Edgar Lee Masters’ Spoon River Anthology. Simultaneously covered the design + development of the ability to interact with a character web + explore character analyses.</p>
 
 									<div className="actions">
-										<a href="//spoonriver.netlify.com" target="_blank" rel="noopener noreferrer" className="button">
+										<a href="//spoonriver.netlify.com" target="_blank" rel="noopener noreferrer" className="button--prominent">
 											View Site <span>&rarr;</span>
 										</a>
 									</div>
@@ -128,7 +128,7 @@ class IndexPage extends Component {
 									<p>Assumed responsibility for managing the firm’s website to reflect staff and company informational changes.</p>
 
 									<div className="actions">
-										<a href="//sellamartinic.com" target="_blank" rel="noopener noreferrer" className="button">
+										<a href="//sellamartinic.com" target="_blank" rel="noopener noreferrer" className="button--prominent">
 											View Site <span>&rarr;</span>
 										</a>
 									</div>
@@ -140,10 +140,6 @@ class IndexPage extends Component {
 									<h4>Development</h4>
 									<h2>St. Anselm's Abbey School</h2>
 									<p>Developed an auto-scheduling system to simplify a previously tedious, highly-criticized process.</p>
-
-									<div className="actions">
-										<p className="info"><small>Link not available</small></p>
-									</div>
 								</div>
 							</article>
 						</div>
@@ -163,7 +159,7 @@ export default IndexPage
 export const projectImage = graphql`
     fragment projectImage on File {
         childImageSharp {
-            fluid(maxWidth: 2880, quality: 100) {
+            fluid(maxWidth: 3000, quality: 100) {
                 ...GatsbyImageSharpFluid_tracedSVG
             }
         }

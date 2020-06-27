@@ -1,4 +1,5 @@
 import React, { useState, useCallback } from 'react'
+import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -28,6 +29,7 @@ function GalleryPage() {
 		<Layout>
 			<SEO title="Home" />
 			<section className="hero">
+				<p className="back-button"><Link to="/" className="button">&larr; All Projects</Link></p>
 				<p className="preheader">Hi, I'm <b>Jay Sella</b>,</p>
 				<h1>
 					Tech <span>aficionado</span> &

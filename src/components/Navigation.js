@@ -7,11 +7,11 @@ class Navigation extends Component {
 			<nav className={['main-nav', !!this.props.stuck ? 'stuck' : ''].join(' ')}>
 				<ul>
 					<li className={this.props.active === 'myWork' ? 'active' : ''}>
-						<Link to="/">My Work</Link>
+						<Link to="/">Projects</Link>
 					</li>
 
 					<li className={this.props.active === 'gallery' ? 'active' : ''}>
-						<Link to="/gallery">Gallery</Link>
+						<Link to="/gallery">Design Gallery</Link>
 					</li>
 
 					<li className={this.props.active === 'contact' ? 'active' : ''}>

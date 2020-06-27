@@ -35,11 +35,6 @@ export const photos = [
 		height: 684
 	},
 	{
-		src: "/gallery/mbm-shirt-pink.jpg",
-		width: 1,
-		height: 1
-	},
-	{
 		src: "/gallery/yearbook-cover.png",
 		width: 357,
 		height: 229
@@ -53,11 +48,6 @@ export const photos = [
 		src: "/gallery/abbey-field-day.png",
 		width: 1,
 		height: 1
-	},
-	{
-		src: "/gallery/press-wall-of-gratitude.jpg",
-		width: 8.5,
-		height: 11
 	},
 	{
 		src: "/gallery/mbm-shirt-kids.jpg",
@@ -85,11 +75,6 @@ export const photos = [
 		height: 2
 	},
 	{
-		src: "/gallery/mbm-shirt-blue.jpg",
-		width: 1,
-		height: 1
-	},
-	{
 		src: "/gallery/spc-invited.png",
 		width: 750,
 		height: 300
@@ -113,15 +98,5 @@ export const photos = [
 		src: "/gallery/sra-initial.png",
 		width: 16,
 		height: 9
-	},
-	{
-		src: "/gallery/mbm-umbrella.jpg",
-		width: 1,
-		height: 1
-	},
-	{
-		src: "/gallery/spc-ctn-evolution.png",
-		width: 2320,
-		height: 1660
 	},
 ]  

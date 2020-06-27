@@ -12,11 +12,10 @@ const NotFoundPage = () => (
 		<SEO title="Contact Me" />
 		<section className="hero">
 			<p className="back-button"><Link to="/" className="button">&larr; Back Home</Link></p>
-			<p className="preheader">Looking to contact me?</p>
 			<h1>
-				Let's start here...
-                <br />
+				Get in touch:
 			</h1>
+			<p className="preheader">You can find me on <a href="//github.com/j-651" target="_blank" rel="nofollow noreferrer">GitHub</a> or connect via email below.</p>
 		</section>
 
 		<section>
@@ -27,12 +26,12 @@ const NotFoundPage = () => (
 
 				<label htmlFor="name">
 					Name
-					<input type="text" name="name" />
+					<input type="text" name="name" placeholder="Samuel Serif" />
 				</label>
 				
 				<label htmlFor="email">
 					Email
-					<input type="email" name="email" />
+					<input type="email" name="email" placeholder="samuel.serif@example.com" />
 				</label>
 
 				<label htmlFor="message">

@@ -44,7 +44,8 @@ function CastelloRagazziPage() {
 			<aside className={styles.toc}>
 				<h3>Contents</h3>
 				<ul className="contents">
-					<li><a href="#website">Website</a></li>
+					<li><a href="#summary">Summary</a></li>
+					{/* <li><a href="#website">Website</a></li> */}
 					<li><a href="#gallery">Gallery</a></li>
 				</ul>
 			</aside>
@@ -56,26 +57,19 @@ function CastelloRagazziPage() {
 				</article>
 			</section>
 
-			<section className={styles.work}>
-				<h3>My Work:</h3>
+			{/* <section className={styles.project} id="website">
+				<h3>Website:</h3>
+				<p><span>&#8627;</span> Webmaster</p>
 
-				<article className="project featured" id="website">
+				<article className="project featured">
 					<div className="left">
-						<h4>Webmaster</h4>
-						<h2>Website</h2>
 						<p>The purpose of this website was to showcase the property's pictures, features, pricing, and availability.</p>
-
-						<div className="actions">
-							<p className="info">
-								Site no longer available
-							</p>
-						</div>
 					</div>
 					<div className="right">
 						<Gallery photos={crPhotos.filter(function (photo) { return photo.src.includes('castello-ragazzi') })} />
 					</div>
 				</article>
-			</section>
+			</section> */}
 
 			<section id="gallery">
 				<h3>Gallery:</h3>

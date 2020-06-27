@@ -6,6 +6,12 @@
     grid-template-areas: 'right' 'left' 'additional'
     grid-gap: 2rem
 
+    &.text-only
+        grid-template-areas: 'content'
+
+        & > div
+            grid-area: 'content'
+
     &.featured:not(:last-of-type)
         margin-bottom: 2.5rem
 

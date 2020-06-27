@@ -11,8 +11,8 @@
 
 	li
 		display: inline-block
-		padding: 0 20px
-		margin: 0 5px 1.45rem -20px
+		padding: 0 15px
+		margin: 0 0 1.45rem 0
 		cursor: pointer
 		color: $black
 		font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif
@@ -24,9 +24,10 @@
 		position: relative
 		display: inline-block
 		opacity: .7
+		transition: all .2s ease
 
-		&:before
-			transition: all .2s ease-in-out
+		&:first-of-type
+			margin-left: -15px
 
 		&:hover
 			opacity: 1
@@ -35,8 +36,8 @@
 				position: absolute
 				content: ' '
 				bottom: -.075em
-				left: 1.2em
-				width: 75%
+				left: 1.5rem
+				width: calc(100% - 1.25em)
 				height: 1em
 				z-index: -1
 				background: linear-gradient(180deg,rgba(255,255,255,0) 50%, $accent-alt 50%)
@@ -50,8 +51,8 @@
 				position: absolute
 				content: ' '
 				bottom: -.075em
-				left: 1.2em
-				width: 75%
+				left: 1.5rem
+				width: calc(100% - 1.25em)
 				height: 1em
 				z-index: -1
 				background: linear-gradient(180deg,rgba(255,255,255,0) 50%, $accent 50%)
