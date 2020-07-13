@@ -54,7 +54,7 @@ function SPCFinancialPage() {
 			<section>
 				<h3>Summary:</h3>
 				<article className="summary">
-					<p>Working at SPC I led a <mark>complete redesign of existing website and marketing materials</mark> to modernize user experience and refresh brand.</p>
+					<p>Working at SPC I led a <mark>complete redesign</mark> of the firm's website + marketing materials to <mark>modernize the user experience</mark> and help clients + prospects <mark>find answers, faster</mark>.</p>
 				</article>
 			</section>
 
@@ -64,8 +64,15 @@ function SPCFinancialPage() {
 				<h3>Website:</h3>
 				<p><span>&#8627;</span> Redesign + Development</p>
 
-				<article className="project featured">
-					<div className="left">
+				<article className="details">
+					<div className="block">
+						<h4><mark>Lead up</mark></h4>
+						<p>When I was first involved in the maintenance of the company's website, they were contracted with a third-party company to design + develop the site on their behalf.</p>
+						<p>As time went on, together, SPC and I stumbled across features and styles we wanted to see implemented. When we approached them with our visions, they often failed to deliver.</p>
+						<p>Eventually, our frustration with their lack of willingness to enhance the site become too much of a barrier. The service's <mark>lack of willingness to innovate</mark> did not match the firm's human-centric nature. To remedy and see our visions through, I got to work redesigning and coding a new site, from scratch.</p>
+					</div>
+
+					{/* <div className="left">
 						<p>In redesigning and developing from scratch the firm's new website, I worked hand-in-hand with their marketing and compliance teams, along with the firm's broker-dealer to meet and exceed compliance, security, and privacy requirements.</p>
 
 						<div className="actions">
@@ -76,22 +83,32 @@ function SPCFinancialPage() {
 					</div>
 					<div className="right">
 						<Gallery photos={spcPhotos.filter(function (photo) { return photo.src.includes('spc-financial') })} />
-					</div>
+					</div> */}
 
-					<div className="additional">
-						<hr/>
+					<div className="block">
 						<h4><mark>Key Features</mark></h4>
-						<p>A driving factor leading to my building a brand new site stemmed from a <mark>lack of willingness</mark> from firm's previous website service <mark>to innovate</mark>.</p>
-
-						<br/>
-
-						<p>In striving to enhance their client (and prospect) experience, I led the implementation of the following:</p>
+						<p>With a clean slate, I got to work modernizing the content, design, and feature set. In striving to enhance their client (and prospect) experience, I led the implementation of the following:</p>
 						<ul className="list">
 							<li>Live Chat</li>
 							<li>Online Appointment Scheduling</li>
 							<li>Electronic Invoicing</li>
 							<li>Online Job Applications</li>
+							<li>Centralized Content Management</li>
+							<li>Atomic Deploys + Branch Contexts</li>
+							<li>Serverless Infrastructure</li>
 						</ul>
+					</div>
+
+					<div className="block">
+						<h4><mark>Tagline</mark></h4>
+						<p>Eventually it was decided it was time for a re-centering of the company. To match their now-modernized design aesthetic, I created a new logo and assisted in the creation of a new tagline. That tagline, <em>Finance on a Human Level<sup>&reg;</sup></em> is now a <mark>registered trademark</mark> with the United States Patent and Trademark Office.</p>
+					</div>
+
+					<div className="block">
+						<h4><mark>Compliance and SEC Regulations</mark></h4>
+						<p>SPC is an independent SEC-registered investment advisor firm who utilizes Raymond James Financial Services as their broker-dealer. As a result, and due to the nature of the security around financial information, compliance is a key aspect early in the development of any new feature or design.</p>
+						<p>At every step of the process, I was in communication with the firm's Chief Compliance Officer and the Compliance department, while also working with Raymond James' advertising, social media, and third-party vendor teams.</p>
+						<p>All in all, this included <mark>writing and editing disclaimers</mark>, compiling <mark>third-party vendor security assessments</mark> for their review, running <mark>multiple sites in parallel</mark> while awaiting review and approval for new content and features, and also keeping <mark>audit logs</mark> for each change.</p>
 					</div>
 				</article>
 			</section>
@@ -102,7 +119,7 @@ function SPCFinancialPage() {
 
 				<article className="project text-only">
 					<div>
-						<p>Working with SPC's marketing team and to reflect the stylistic changes implemented on the website, I embarked on updating other branch materials including presentation templates, logos, and stationery such as letterhead, envelopes, and business cards. This also carried over to changes in advertising styles.</p>
+						<p>Working with SPC's marketing team and to reflect the stylistic changes implemented on the website, I embarked on a mission to update other branch materials including presentation templates, logos, and stationery such as letterhead, envelopes, and business cards. This also carried over to changes in advertising styles.</p>
 					</div>
 				</article>
 			</section>

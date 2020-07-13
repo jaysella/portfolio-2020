@@ -11,6 +11,18 @@
 
         & > div
             grid-area: 'content'
+    
+    &.has-lead-in
+        grid-template-areas: 'lead-in' 'right' 'left' 'additional'
+
+    .lead-in
+        grid-area: lead-in
+        border-bottom: $border-width solid $white
+        padding: 0 0 1.75em 0
+        line-height: 1.75
+
+        p:not(:first-of-type)
+            margin-top: 1em
 
     &.featured:not(:last-of-type)
         margin-bottom: 2.5rem
@@ -20,7 +32,7 @@
         text-transform: uppercase
         font-family: $font-family
         font-weight: 300
-        margin-bottom: .2rem
+        margin-bottom: .25rem
         font-size: .8rem
         z-index: 2
 
@@ -35,6 +47,8 @@
     
     .additional
         grid-area: additional
+        border-top: $border-width solid $white
+        padding: 1.75em 0
         
     .left, .inner
         display: grid
@@ -53,9 +67,18 @@
         &.featured
             grid-template-columns: 50% calc(50% - 2rem)
             grid-template-areas: 'left right' 'additional additional'
+        
+            &.has-lead-in
+                grid-template-areas: 'lead-in lead-in' 'left right' 'additional additional'
 
         &.flipped
             grid-template-areas: 'right left' 'additional additional'
+
+            &.has-lead-in
+                grid-template-areas: 'lead-in lead-in' 'right left' 'additional additional'
+        
+        &.has-lead-in
+            grid-template-areas: 'lead-in lead-in' 'additional additional'
 
 +desktop
     .project

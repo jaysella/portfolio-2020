@@ -8,6 +8,7 @@
 	transition: box-shadow .2s ease
 
 	li
+		position: relative
 		margin: 0
 		padding-left: 2rem
 
@@ -16,7 +17,10 @@
 
 		&:before
 			position: absolute
-			left: 1.25rem
+			// top: -.2rem
+			// left: -.25rem
+			left: -.25em
+			bottom: -.325em
 			content: '→ '
 			font-size: 1.5em
 			color: $accent
