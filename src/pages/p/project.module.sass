@@ -1,7 +1,17 @@
 @import '../../assets/sass/01-abstracts/abstracts'
 
-.toc ~ section
-    margin-top: calc(2rem + 4.25vw)
+.top
+    +tablet
+        grid-template-columns: 1fr auto
+
+    display: grid
+    grid-template-columns: 100%
+
+.toc
+    +tablet
+        margin: 7rem 0 auto auto
+    
+    margin-top: 3rem
     
 .project
     & > h3

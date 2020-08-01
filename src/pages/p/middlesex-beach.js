@@ -35,34 +35,59 @@ function MiddlesexBeachPage({ data }) {
     return (
         <Layout>
             <SEO title="Home" />
-            <section className="hero">
-                <p className="back-button"><Link to="/" className="button">&larr; Back Home</Link></p>
-                <p className="preheader">
-                    <Link to="/">Jay Sella</Link> &mdash; <b>Webmaster + Point-of-Contact</b>
-                </p>
-                <h1>
-                    Middlesex Beach
-                    <br/>Association
-                </h1>
-            </section>
+            <div className="sticky">
+                <p className="back-button"><Link to="/" className="button icon-left"><span>&larr;</span> Back Home</Link></p>
+            </div>
 
-            <aside className={styles.toc}>
-                <h3>Contents</h3>
-                <ul className="contents">
-                    <li><a href="#website">Website</a></li>
-                    <li><a href="#the-marketplace">The Marketplace</a></li>
-                    <li><a href="#designs">Designs</a></li>
-                </ul>
-            </aside>
+            <div className={styles.top}>
+				<section className="hero">
+					<p className="preheader">
+						<Link to="/">Jay Sella</Link> &mdash; <b>Webmaster + Point-of-Contact [Volunteer]</b>
+					</p>
+					<h1>
+						Middlesex Beach Association
+					</h1>
+					<p className="info">
+						An HOA for a private community on the Eastern Shore with nearly 250 properties.
+					</p>
+				</section>
+
+				<aside className={styles.toc}>
+					<h3>Contents</h3>
+                    <ul role="list" className="contents">
+                        <li><a href="#website">Website</a></li>
+                        <li><a href="#the-marketplace">The Marketplace</a></li>
+                        <li><a href="#designs">Designs</a></li>
+                    </ul>
+				</aside>
+			</div>
 
             <section>
                 <h3>Summary:</h3>
                 <article className="summary">
-                    <p>In my time volunteering with Middlesex Beach I have spearheaded a <mark>complete overhaul of their website</mark> with the rollout of individual user logins to ease access to protected documents. I have also served as the <mark>primary contact person</mark> for fielding general inquiries and managing general processes.</p>
+                    {/* <p>In my time volunteering with Middlesex Beach I have spearheaded a <mark>complete overhaul of their website</mark> with the rollout of individual user logins to ease access to protected documents. I have also served as the <mark>primary contact person</mark> for fielding general inquiries and managing general processes.</p> */}
+                    <ul className="list">
+						<li>
+							<span>Carried out a complete overhaul of HOA's website, <mark>serving 1,400 users/month</mark></span>
+						</li>
+						<li>
+							<span>Served as a point-of-contact between the Board, employees, owners, and property management, exchanging <mark>1,000+ emails</mark> over a 3-year span</span>
+						</li>
+                        <li>
+                            <span>Published <mark>880 ownership record changes</mark> resulting in a <mark>62% increase</mark> in reliable homeowner communication channels</span>
+                        </li>
+                        <li>
+                            <span>Implemented a mass communication service to reliably communicate with owners, sending 74 email campaigns with an average <mark>75% engagement rate</mark></span>
+                        </li>
+                        <li>
+                            <span>Crafted + developed a <i>Hologram + QR Code Verification System</i>, responsible for <mark>5,000+ scans</mark>/year <small>(during peak summer months)</small></span>
+                        </li>
+                        <li>
+                            <span>Designed, marketed, and sold <mark>$6,300 worth of merchandise</mark> for a community fundraiser <small>(at no cost to the HOA)</small></span>
+                        </li>
+					</ul>
                 </article>
             </section>
-
-            {/* website is most robust in the area */}
 
             <section className={styles.project} id="website">
                 <h3>Website:</h3>

@@ -2,6 +2,7 @@
     display: block
     padding: 2.5rem
     background-color: $whiter
+    border-radius: $border-radius
 
     h4
         position: relative
@@ -25,9 +26,11 @@
             padding-top: 1.75em
 
         p
-
             &:not(:first-of-type)
                 margin-top: 1em
+            
+            mark
+                background-color: rgba($accent-alt, .25)
 
     .actions
         margin-top: 2rem

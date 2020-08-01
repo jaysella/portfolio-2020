@@ -31,29 +31,44 @@ function CastelloRagazziPage() {
 	return (
 		<Layout>
 			<SEO title="Home" />
-			<section className="hero">
-				<p className="back-button"><Link to="/" className="button">&larr; Back Home</Link></p>
-				<p className="preheader">
-					<Link to="/">Jay Sella</Link> &mdash; <b>Webmaster + Point-of-Contact</b>
-				</p>
-				<h1>
-					Castello Ragazzi<small>, LLC</small>
-				</h1>
-			</section>
+			<div className="sticky">
+				<p className="back-button"><Link to="/" className="button icon-left"><span>&larr;</span> Back Home</Link></p>
+			</div>
 
-			<aside className={styles.toc}>
-				<h3>Contents</h3>
-				<ul className="contents">
-					<li><a href="#summary">Summary</a></li>
-					{/* <li><a href="#website">Website</a></li> */}
-					<li><a href="#gallery">Gallery</a></li>
-				</ul>
-			</aside>
+			<div className={styles.top}>
+				<section className="hero">
+					<p className="preheader">
+						<Link to="/">Jay Sella</Link> &mdash; <b>Webmaster + Communications Liaison</b>
+					</p>
+					<h1>
+						Castello Ragazzi, LLC
+					</h1>
+					<p className="info">
+						Management company for a rental property along the Eastern Shore.
+					</p>
+				</section>
+
+				<aside className={styles.toc}>
+					<h3>Contents</h3>
+                    <ul role="list" className="contents">
+						<li><a href="#summary">Summary</a></li>
+						{/* <li><a href="#website">Website</a></li> */}
+						<li><a href="#gallery">Gallery</a></li>
+                    </ul>
+				</aside>
+			</div>
 
 			<section>
 				<h3>Summary:</h3>
 				<article className="summary">
-					<p>Castello Ragazzi managed a rental property along the Eastern Shore. As webmaster, I <mark>designed + developed three website iterations</mark> and served as a <mark>main point-of-contact for prospects + current guests</mark>.</p>
+					<ul className="list">
+						<li>
+							<span>Designed + developed <mark>three website iterations</mark> over a three-year period</span>
+						</li>
+						<li>
+							<span>Communicated with [] tenants and prospective renters</span>
+						</li>
+					</ul>
 				</article>
 			</section>
 

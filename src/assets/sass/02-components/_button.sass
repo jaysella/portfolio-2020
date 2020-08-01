@@ -7,11 +7,11 @@
 	padding: 5px 15px
 	transition: all .5s ease
 	cursor: pointer
+	border-radius: $border-radius
 
 	span
 		display: inline-block
 		transition: transform .5s ease
-		margin-left: 5px
 
 .button
 	@extend %button
@@ -22,6 +22,11 @@
 
 		span
 			transform: translateX(1.5rem) scale(1.5)
+	
+	&.icon-left
+		&:hover
+			span
+				transform: translateX(-1.5rem) scale(1.5)
 
 .button--prominent
 	@extend %button

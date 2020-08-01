@@ -28,8 +28,10 @@ function GalleryPage() {
 	return (
 		<Layout>
 			<SEO title="Home" />
+			<div className="sticky">
+				<p className="back-button"><Link to="/" className="button icon-left"><span>&larr;</span> All Projects</Link></p>
+			</div>
 			<section className="hero">
-				<p className="back-button"><Link to="/" className="button">&larr; All Projects</Link></p>
 				<p className="preheader">Hi, I'm <b>Jay Sella</b>,</p>
 				<h1>
 					Tech <span>aficionado</span> &

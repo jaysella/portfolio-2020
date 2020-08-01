@@ -31,34 +31,53 @@ function SPCFinancialPage() {
 	return (
 		<Layout>
 			<SEO title="Home" />
-			<section className="hero">
-				<p className="back-button"><Link to="/" className="button">&larr; Back Home</Link></p>
-				<p className="preheader">
-					<Link to="/">Jay Sella</Link> &mdash; <b>Design + Development</b>
-				</p>
-				<h1>
-					SPC Financial<small><sup>&reg;</sup></small>
-				</h1>
-			</section>
+			<div className="sticky">
+				<p className="back-button"><Link to="/" className="button icon-left"><span>&larr;</span> Back Home</Link></p>
+			</div>
 
-			<aside className={styles.toc}>
-				<h3>Contents</h3>
-				<ul className="contents">
-					<li><a href="#summary">Summary</a></li>
-					<li><a href="#website">Website</a></li>
-					<li><a href="#marketing">Marketing</a></li>
-					<li><a href="#designs">Designs</a></li>
-				</ul>
-			</aside>
+			<div className={styles.top}>
+				<section className="hero">
+					<p className="preheader">
+						<Link to="/">Jay Sella</Link> &mdash; <b>Marketing + Communications Intern</b>
+					</p>
+					<h1>
+						SPC Financial<small><sup>&reg;</sup></small>
+					</h1>
+					<p className="info">
+						A local investment advisory firm based in the Washington, D.C. Metro area with nearly $1 billion in assets under advisement + management.
+					</p>
+				</section>
+
+				<aside className={styles.toc}>
+					<h3>Contents</h3>
+					<ul role="list" className="contents">
+						<li><a href="#summary">Summary</a></li>
+						<li><a href="#website">Website</a></li>
+						<li><a href="#marketing">Marketing</a></li>
+						<li><a href="#designs">Designs</a></li>
+					</ul>
+				</aside>
+			</div>
 
 			<section>
 				<h3>Summary:</h3>
 				<article className="summary">
-					<p>Working at SPC I led a <mark>complete redesign</mark> of the firm's website + marketing materials to <mark>modernize the user experience</mark> and help clients + prospects <mark>find answers, faster</mark>.</p>
+					<ul className="list">
+						<li>
+							<span>Led a complete redesign + rebuild of the firm's website, handling <mark>15,000 pageviews/month</mark></span>
+						</li>
+						<li>
+							<span>Launched electronic invoicing and payment processing, saving <mark>$1,000+/year and faster turn-around</mark></span>
+						</li>
+						<li>
+							<span>Rolled out online appointment scheduling, handling <mark>450 appointments in the first 6 months</mark></span>
+						</li>
+						<li>
+							<span>Implemented live chat with the firm's advisors, handling <mark>100+ communications in the first year</mark></span>
+						</li>
+					</ul>
 				</article>
 			</section>
-
-			{/* website is most robust in the area */}
 
 			<section className={styles.project} id="website">
 				<h3>Website:</h3>
@@ -66,49 +85,44 @@ function SPCFinancialPage() {
 
 				<article className="details">
 					<div className="block">
-						<h4><mark>Lead up</mark></h4>
-						<p>When I was first involved in the maintenance of the company's website, they were contracted with a third-party company to design + develop the site on their behalf.</p>
-						<p>As time went on, together, SPC and I stumbled across features and styles we wanted to see implemented. When we approached them with our visions, they often failed to deliver.</p>
-						<p>Eventually, our frustration with their lack of willingness to enhance the site become too much of a barrier. The service's <mark>lack of willingness to innovate</mark> did not match the firm's human-centric nature. To remedy and see our visions through, I got to work redesigning and coding a new site, from scratch.</p>
+						<h4><mark>Background</mark></h4>
+						<p>SPC is an independent registered investment advisory firm in the Washington, D.C. Metro area with nearly $1 billion in assets under advisement + management.</p>
 					</div>
-
-					{/* <div className="left">
-						<p>In redesigning and developing from scratch the firm's new website, I worked hand-in-hand with their marketing and compliance teams, along with the firm's broker-dealer to meet and exceed compliance, security, and privacy requirements.</p>
-
-						<div className="actions">
-							<a href="//spcfinancial.com" target="_blank" rel="noopener noreferrer" className="button--prominent">
-								View Site <span>&rarr;</span>
-							</a>
-						</div>
-					</div>
-					<div className="right">
-						<Gallery photos={spcPhotos.filter(function (photo) { return photo.src.includes('spc-financial') })} />
-					</div> */}
 
 					<div className="block">
-						<h4><mark>Key Features</mark></h4>
-						<p>With a clean slate, I got to work modernizing the content, design, and feature set. In striving to enhance their client (and prospect) experience, I led the implementation of the following:</p>
-						<ul className="list">
-							<li>Live Chat</li>
+						<h4><mark>Problem</mark></h4>
+						<p>Initially, SPC was contracted with a third-party company to design, develop, and maintain their site on the firm's behalf. As I became increasingly involved in the organization, <mark>we discovered + realized new functionality we wanted implemented</mark>.</p>
+						<p>When approached with our visions, <i>the company often failed to deliver</i>.</p>
+						<p>Eventually, our frustration with <mark>their reluctance to iterate and improve became too much of a roadblock</mark>; their philosophy did not match the firm's human-centricity.</p>
+						<p><b>&there4;</b> <mark>This was the time to see our visions through</mark> &rarr; it was time to design + build a new site, from scratch.</p>
+					</div>
+
+					<div className="block">
+						<h4><mark>Solution</mark></h4>
+						<p>With a clean slate, I got to work modernizing the content, design, and feature set.</p>
+						<p>This project posed a unique challenge: the <mark>melding together of familiar experiences</mark> for their older clients, whilst also <mark>innovating and modernizing</mark> to appeal to younger, more tech-savvy audiences.</p>
+						<p>Attention was paid to ensure the continued operation of old links while also optimizing ease of navigation. New features and functionality were added without overloading the user or over-cluttering the page.</p>
+						<p>SPC's brand refresh doubles down on their human-centric focus; <mark>all website copy was modified</mark> to incorporate the new language. SPC's colors, blue and gold, are prominent across their brand. It was important to keep a <mark>cohesive appearance</mark> both across the site and across other materials, including documents, apparel, and accessories.</p>
+						<p><b>&there4;</b> In the end, <mark>I spearheaded the implementation of</mark>:</p>
+						<ul className="list pb-0">
+							<li>Advisor Live Chat</li>
 							<li>Online Appointment Scheduling</li>
-							<li>Electronic Invoicing</li>
-							<li>Online Job Applications</li>
+							<li>Electronic Invoicing + Payment Processing</li>
+							<li>Integrated Job Postings + Applications</li>
 							<li>Centralized Content Management</li>
-							<li>Atomic Deploys + Branch Contexts</li>
-							<li>Serverless Infrastructure</li>
 						</ul>
 					</div>
 
 					<div className="block">
-						<h4><mark>Tagline</mark></h4>
-						<p>Eventually it was decided it was time for a re-centering of the company. To match their now-modernized design aesthetic, I created a new logo and assisted in the creation of a new tagline. That tagline, <em>Finance on a Human Level<sup>&reg;</sup></em> is now a <mark>registered trademark</mark> with the United States Patent and Trademark Office.</p>
+						<h4><mark>Tech Stack</mark></h4>
+						<p>The site is built on Gatsby, styled with Sass, stored in Bitbucket, connected to Contentful, and hosted by Netlify, along with custom Stripe integrations thanks to Netlify's AWS Lambda Functions abilities.</p>
 					</div>
 
 					<div className="block">
-						<h4><mark>Compliance and SEC Regulations</mark></h4>
-						<p>SPC is an independent SEC-registered investment advisor firm who utilizes Raymond James Financial Services as their broker-dealer. As a result, and due to the nature of the security around financial information, compliance is a key aspect early in the development of any new feature or design.</p>
-						<p>At every step of the process, I was in communication with the firm's Chief Compliance Officer and the Compliance department, while also working with Raymond James' advertising, social media, and third-party vendor teams.</p>
-						<p>All in all, this included <mark>writing and editing disclaimers</mark>, compiling <mark>third-party vendor security assessments</mark> for their review, running <mark>multiple sites in parallel</mark> while awaiting review and approval for new content and features, and also keeping <mark>audit logs</mark> for each change.</p>
+						<h4><mark>Compliance + SEC Regulations</mark></h4>
+						<p>As an investment advisory firm, SPC has a second-party broker-dealer. Due to the nature of handling financial information, <mark>compliance, privacy, and security are key considerations</mark> at every step of the process, from concept to continued maintenance.</p>
+						<p><mark>Along the way, I was in constant communication</mark> with the firm's Chief Compliance Officer and VP of Marketing &amp; Communications, while also working with the broker-dealer's Advertising, Compliance, Risk Assessment, Social Media, and Third-Party Vendor teams.</p>
+						<p>This involvement included drafting disclaimers and disclosures, submitting third-party vendor security assessments for review, managing multiple site versions in parallel, and also keeping and reviewing audit logs for each change.</p>
 					</div>
 				</article>
 			</section>
@@ -117,9 +131,14 @@ function SPCFinancialPage() {
 				<h3>Marketing:</h3>
 				<p><span>&#8627;</span> Presentations, Stationery, Advertisements</p>
 
-				<article className="project text-only">
-					<div>
+				<article className="details">
+					<div className="block">
 						<p>Working with SPC's marketing team and to reflect the stylistic changes implemented on the website, I embarked on a mission to update other branch materials including presentation templates, logos, and stationery such as letterhead, envelopes, and business cards. This also carried over to changes in advertising styles.</p>
+					</div>
+
+					<div className="block">
+						<h4><mark>Logo + Tagline</mark></h4>
+						<p>Not long into the redesign process, it was decided it was time for a re-centering of the company. To match their now-modernized aesthetic, I <mark>crafted a new logo</mark> and assisted in the creation of a new tagline. That tagline, <i>Finance on a Human Level<sup>&reg;</sup></i> is now a <mark>registered trademark</mark> with the United States Patent and Trademark Office.</p>
 					</div>
 				</article>
 			</section>

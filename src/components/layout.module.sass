@@ -1,0 +1,54 @@
+@import '../assets/sass/01-abstracts/abstracts'
+
+.leftLinks
+  +desktop
+    display: block
+
+  display: none
+  position: fixed
+  bottom: 0
+  left: 20px
+  width: auto
+  z-index: 5
+  color: $accent
+
+  ul
+    list-style-type: none
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    padding: 0
+    margin: 0
+
+    &::after
+      content: ''
+      display: block
+      width: $border-width
+      height: 50px
+      background-color: rgba($tarawera, .5)
+
+  li
+    margin: 0
+
+    &:last-child
+      margin-bottom: 5px
+
+  a
+    padding: 15px
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+  
+  .icon
+    width: 25px
+    height: 25px
+    fill: rgba($tarawera, .5)
+    vertical-align: middle
+    overflow: hidden
+    transition: all .3s ease
+    
+    &:hover
+      transform: scale(1.1) translateY(-3px)
+      fill: $tarawera

@@ -10,12 +10,15 @@ import Navigation from '../components/Navigation'
 const NotFoundPage = () => (
 	<Layout>
 		<SEO title="Contact Me" />
+		<div className="sticky">
+			<p className="back-button"><Link to="/" className="button icon-left"><span>&larr;</span> Back Home</Link></p>
+		</div>
 		<section className="hero">
-			<p className="back-button"><Link to="/" className="button">&larr; Back Home</Link></p>
+			<p className="preheader">What's next?</p>
 			<h1>
-				Get in touch:
+				Get in touch
 			</h1>
-			<p className="preheader">You can find me on <a href="//github.com/j-651" target="_blank" rel="nofollow noreferrer">GitHub</a> or connect via email below.</p>
+			<p className="postheader">I am always eager to learn about potential projects. If you have any questions or would simply like to reach out, my inbox is always open!</p>
 		</section>
 
 		<section>

@@ -46,18 +46,18 @@ class IndexPage extends Component {
 							</Tab>
 						</Tabs> */}
 
-						<article className="project featured">
+						<article className="project featured slideUp">
 							<div className="left">
-								<h4>Design &bull; Development</h4>
+								<h4>Marketing + Communications Intern</h4>
 								<h2>SPC Financial&reg;</h2>
-								<p>I conducted a complete redesign and rebuild of the firm's website and marketing materials to modernize the user experience and help clients + prospects find answers, faster.</p>
+								<p>Conducted a complete redesign and rebuild of the firm's website and marketing materials to modernize the user experience and help clients + prospects find answers, faster.</p>
 
 								<div className="actions">
 									<Link to="/p/spc-financial" className="button--prominent">
 										Details <span>&rarr;</span>
 									</Link>
 									<a href="//spcfinancial.com" target="_blank" rel="noopener noreferrer" className="simple-link">
-										View Site <span>&rarr;</span>
+										View Site <span className="upperRight">&rarr;</span>
 									</a>
 								</div>
 							</div>
@@ -66,18 +66,18 @@ class IndexPage extends Component {
 							</div>
 						</article>
 
-						<article className="project featured">
+						<article className="project featured slideUp">
 							<div className="left">
-								<h4>Webmaster &bull; Point-of-Contact</h4>
+								<h4>Webmaster + Point-of-Contact</h4>
 								<h2>Middlesex Beach Association</h2>
-								<p>I completely overhauled the HOA’s website, implementing individual user logins to streamline access to protected documents and restructuring all information. I also served as a primary point-of-contact, fielding questions from <em>"how do I update my email address?"</em> to <em>"how fast can you email residents about a water main break?"</em></p>
+								<p>Served as central technology consultant for the Board. This included projects such as overhauling the HOA’s website, developing a QR Code Verification System, and serving a primary point-of-contact, fielding questions from <i>"how do I change my mailing address?"</i> to <i>"how fast can you email residents about a water main break?"</i></p>
 
 								<div className="actions">
 									<Link to="/p/middlesex-beach" className="button--prominent">
 										More info <span>&rarr;</span>
 									</Link>
 									<a href="//middlesexbeach.org" target="_blank" rel="noopener noreferrer" className="simple-link">
-										View Site <span>&rarr;</span>
+										View Site <span className="upperRight">&rarr;</span>
 									</a>
 								</div>
 							</div>
@@ -86,11 +86,11 @@ class IndexPage extends Component {
 							</div>
 						</article>
 
-						<article className="project featured">
+						<article className="project featured slideUp">
 							<div className="left">
-								<h4>Webmaster &bull; Point-of-Contact</h4>
+								<h4>Webmaster + Communications Liaison</h4>
 								<h2>Castello Ragazzi, LLC</h2>
-								<p>Castello Ragazzi owned + managed a beach rental property. I designed + developed several iterations of a website for the property, whilst also facilitating communication with guests before, during, and after their stay.</p>
+								<p>Castello Ragazzi owned + managed a beach rental property. I designed + developed several iterations of a website marketing the property, whilst also facilitating communication with guests before, during, and after their stay.</p>
 
 								<div className="actions">
 									<Link to="/p/castello-ragazzi" className="button--prominent">
@@ -105,41 +105,41 @@ class IndexPage extends Component {
 					</section>
 
 					<section className={styles.other_projects}>
-						<h3>Other Projects:</h3>
+						<h3>Other Noteworthy Projects:</h3>
 						<div className={styles.projects}>
-							<article className="project small">
+							<article className="project small slideUp">
 								<div className="inner">
-									<h4>Analysis &bull; Design &bull; Development</h4>
+									<h4>Gatsby.js &bull; Sass &bull; Netlify</h4>
 									<h2>Spoon River Anthology</h2>
-									<p>Edgar Lee Masters' <em>SRA</em> is a complex work of art. This group project entailed an analysis of the anthology's text + characters. Simultaneously, I designed + built an online experience to explore our character analyses and understand their intertwinement through an interactive web.</p>
+									<p>An interactive exploration of Edgar Lee Masters' <i>Spoon River Anthology</i>: analysis, characters, connections.</p>
 
 									<div className="actions">
 										<a href="//spoonriver.netlify.com" target="_blank" rel="noopener noreferrer" className="button--prominent">
-											View Site <span>&rarr;</span>
+											<span className="upperRight">&rarr;</span>
 										</a>
 									</div>
 								</div>
 							</article>
 
-							<article className="project small">
+							<article className="project small slideUp">
 								<div className="inner">
-									<h4>Webmaster</h4>
+									<h4>Website Consultant</h4>
 									<h2>Sella &amp; Martinic, LLC</h2>
-									<p>In 2017 I assumed control of the company's site to help revitalize the content and reflect changes among the staff and company itself.</p>
+									<p>Assumed control of the company's site in 2017 to help revitalize the content and reflect changes among the staff and company itself.</p>
 
 									<div className="actions">
 										<a href="//sellamartinic.com" target="_blank" rel="noopener noreferrer" className="button--prominent">
-											View Site <span>&rarr;</span>
+											<span className="upperRight">&rarr;</span>
 										</a>
 									</div>
 								</div>
 							</article>
 
-							<article className="project small">
+							<article className="project small slideUp">
 								<div className="inner">
-									<h4>Development &bull; Communications Director</h4>
+									<h4>Student Communications Director</h4>
 									<h2>St. Anselm's Abbey School</h2>
-									<p>In 2019 I automated student data and aggregation processes to reduce workload and remove bias. I also assumed the role of Communications Director for the 2020-21 student government.</p>
+									<p>In 2019, I automated student data and aggregation processes to reduce workload and remove bias. I also assumed the role of Communications Director for the 2020-21 student government.</p>
 								</div>
 							</article>
 						</div>
