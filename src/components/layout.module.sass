@@ -26,7 +26,7 @@
       display: block
       width: $border-width
       height: 50px
-      background-color: rgba($tarawera, .5)
+      background-color: $black-a5
 
   li
     margin: 0
@@ -34,21 +34,27 @@
     &:last-child
       margin-bottom: 5px
 
-  a
+  a, button
     padding: 15px
     display: flex
     align-items: center
     justify-content: center
     flex-direction: column
+
+    &:active
+      outline: none
   
   .icon
     width: 25px
     height: 25px
-    fill: rgba($tarawera, .5)
+    fill: $black-a5
     vertical-align: middle
     overflow: hidden
     transition: all .3s ease
     
     &:hover
       transform: scale(1.1) translateY(-3px)
-      fill: $tarawera
+      fill: $black
+
+footer
+  color: $black

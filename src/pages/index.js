@@ -105,7 +105,7 @@ class IndexPage extends Component {
 					</section>
 
 					<section className={styles.other_projects}>
-						<h3>Other Noteworthy Projects:</h3>
+						<h3>Other Noteworthy Projects</h3>
 						<div className={styles.projects}>
 							<article className="project small slideUp">
 								<div className="inner">

@@ -97,7 +97,7 @@ fieldset
 legend
   padding: 0 1rem
 
-button
+input[type="submit"]
 	border: $border-width solid $black
 
 // Radio custom styles
@@ -114,7 +114,7 @@ button
 				content: ''
 				background: transparent
 				border-radius: 100%
-				border: 1px solid darken($white, 25%)
+				border: 1px solid $off-white
 				display: inline-block
 				width: 1.4em
 				height: 1.4em
@@ -142,8 +142,8 @@ button
 			+ label
 				&:before
 					box-shadow: inset 0 0 0 4px $white
-					border-color: darken($white, 25%)
-					background: darken($white, 25%)
+					border-color: $off-white
+					background: $off-white
 
 		+ label
 			&:empty

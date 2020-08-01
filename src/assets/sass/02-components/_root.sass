@@ -1,0 +1,47 @@
+$font-family: 'Bellota Text', sans-serif
+
+$border-width: 1px
+$border-radius: 3px
+
+$tarawera: #073C53
+$mystic: #EBF0F2
+$saffron-mango: rgba(#FBBD61, .75)
+$green-darner-tail: #74b9ff
+
+$dark: $tarawera
+$darker: darken($tarawera, 5%)
+$dark-a1: rgba($tarawera, .1)
+$dark-a5: rgba($tarawera, .5)
+$light: $mystic
+$light-a5: rgba($mystic, .5)
+$lighter: lighten($mystic, 5%)
+$off-white: darken($light, 25%)
+$accent: $saffron-mango
+$accent-a1: rgba($saffron-mango, .1)
+$accent-a25: rgba($saffron-mango, .25)
+$accent-alt: $green-darner-tail
+$accent-alt-a25: rgba($green-darner-tail, .25)
+
+\:root
+    --font-family: #{$font-family}
+
+    --border-width: 1px
+    --border-radius: 3px
+
+    --black: #{$dark}
+    --black-a1: #{$dark-a1}
+    --black-a5: #{$dark-a5}
+    --dark: #{$dark}
+    --light: #{$light}
+    --lighter: #{$lighter}
+    --accent: #{$accent}
+    --accent-a1: #{$accent-a1}
+    --accent-a25: #{$accent-a25}
+    --accent-alt: #{$accent-alt}
+    --accent-alt-a25: #{$accent-alt-a25}
+
+.dark
+    --black: #{$light}
+    --black-a5: #{$light-a5}
+    --light: #{$dark}
+    --lighter: #{$darker}

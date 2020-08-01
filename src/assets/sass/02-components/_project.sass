@@ -6,6 +6,7 @@
     grid-template-columns: 100%
     grid-template-areas: 'right' 'left' 'additional'
     grid-gap: 2rem
+    color: $black
 
     &.text-only
         grid-template-areas: 'content'
@@ -58,9 +59,9 @@
 
         *
             +tablet
-                border-radius: $border-radius * 2
+                border-radius: calc($border-radius * 2)
 
-            box-shadow: 10px 10px 80px rgba($black, .1)
+            box-shadow: 10px 10px 80px $black-a1
             border-radius: $border-radius $border-radius 0 0
         
         > div
@@ -72,7 +73,7 @@
                 top: 0
                 left: 0
                 z-index: 5
-                background-color: $black
+                background-color: $dark
                 mix-blend-mode: screen
                 transition: all .25s ease
         

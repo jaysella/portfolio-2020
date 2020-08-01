@@ -9,9 +9,20 @@
 	cursor: pointer
 	border-radius: $border-radius
 
+	&:active
+		outline: none
+
 	span
 		display: inline-block
 		transition: transform .5s ease
+
+button
+	// reset
+	border: none
+	cursor: pointer
+	background: none
+	margin: 0
+	padding: 0
 
 .button
 	@extend %button
