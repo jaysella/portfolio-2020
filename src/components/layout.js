@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 // import { useStaticQuery, graphql } from "gatsby"
 
 // import Header from "./header"
-import LeftLinks from './LeftLinks'
+import LeftLinks from "./LeftLinks"
 
 const Layout = ({ children }) => {
   // const data = useStaticQuery(graphql`
@@ -38,8 +38,10 @@ const Layout = ({ children }) => {
         <LeftLinks />
         <footer>
           <p>
-            <small>Designed + coded from scratch in the Washington, D.C. area.</small>
-            <br/>
+            <small>
+              Designed + coded from scratch in the Washington, D.C. area.
+            </small>
+            <br />
             &copy; {new Date().getFullYear()} Jay Sella. All Rights Reserved.
           </p>
         </footer>
