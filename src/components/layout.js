@@ -40,6 +40,16 @@ const Layout = ({ children }) => {
           <p>
             <small>
               Designed + coded from scratch in the Washington, D.C. area.
+              <br />
+              Some icons made by various contributors via{" "}
+              <a
+                href="//flaticon.com"
+                target="_blank"
+                rel="noopener referrer nofollow"
+              >
+                www.flaticon.com
+              </a>
+              .
             </small>
             <br />
             &copy; {new Date().getFullYear()} Jay Sella. All Rights Reserved.
