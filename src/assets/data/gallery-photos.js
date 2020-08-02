@@ -5,6 +5,16 @@ export const photos = [
     height: 1,
   },
   {
+    src: "/gallery/spc-in-person-meeting.png",
+    width: 2,
+    height: 4,
+  },
+  {
+    src: "/gallery/deja-de-vapear.png",
+    width: 16,
+    height: 10,
+  },
+  {
     src: "/gallery/middlesex-beach-flows.png",
     width: 10,
     height: 7.7,
@@ -20,9 +30,9 @@ export const photos = [
     height: 576,
   },
   {
-    src: "/gallery/deja-de-vapear.png",
-    width: 16,
-    height: 10,
+    src: "/gallery/spc-happy-new-year.png",
+    width: 1,
+    height: 1,
   },
   {
     src: "/gallery/spoonriver.png",
@@ -30,9 +40,9 @@ export const photos = [
     height: 1454,
   },
   {
-    src: "/gallery/spc-financial.png",
-    width: 1200,
-    height: 684,
+    src: "/gallery/abbey-field-day.png",
+    width: 1,
+    height: 1,
   },
   {
     src: "/gallery/yearbook-cover.png",
@@ -40,14 +50,19 @@ export const photos = [
     height: 229,
   },
   {
-    src: "/gallery/castello-ragazzi.png",
+    src: "/gallery/spc-financial.png",
     width: 1200,
     height: 684,
   },
   {
-    src: "/gallery/abbey-field-day.png",
-    width: 1,
-    height: 1,
+    src: "/gallery/spc-townhall-invite-12.png",
+    width: 4,
+    height: 2,
+  },
+  {
+    src: "/gallery/castello-ragazzi.png",
+    width: 1200,
+    height: 684,
   },
   {
     src: "/gallery/mbm-shirt-kids.jpg",
@@ -61,8 +76,8 @@ export const photos = [
   },
   {
     src: "/gallery/spc-logo.png",
-    width: 1851,
-    height: 600,
+    width: 3,
+    height: 1,
   },
   {
     src: "/gallery/middlesex-beach-2020-parking-pass.png",
