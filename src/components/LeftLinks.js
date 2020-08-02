@@ -14,7 +14,7 @@ function LeftLinks() {
       <ul>
         <li>
           <a
-            href="//github.com"
+            href="//github.com/j-651"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub Profile"
