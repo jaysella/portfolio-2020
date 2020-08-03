@@ -135,28 +135,21 @@ function SPCFinancialPage() {
             <p>
               Initially, SPC was contracted with a third-party company to
               design, develop, and maintain their site on the firm's behalf. As
-              I became increasingly involved in the organization,{" "}
-              <mark>
-                we discovered + realized new functionality we wanted implemented
-              </mark>
-              .
+              I became increasingly involved in the organization, we discovered
+              + realized new functionality we wanted implemented.
             </p>
             <p>
               When approached with our visions,{" "}
               <i>the company often failed to deliver</i>.
             </p>
             <p>
-              Eventually, our frustration with{" "}
-              <mark>
-                their reluctance to iterate and improve became too much of a
-                roadblock
-              </mark>
-              ; their philosophy did not match the firm's human-centricity.
+              Eventually, our frustration with their reluctance to iterate and
+              improve became too much of a roadblock; their philosophy did not
+              match the firm's human-centricity.
             </p>
             <p>
-              <b>&there4;</b>{" "}
-              <mark>This was the time to see our visions through</mark> &rarr;
-              it was time to design + build a new site, from scratch.
+              <b>&there4;</b> This was the time to see our visions through
+              &rarr; it was time to design + build a new site, from scratch.
             </p>
           </div>
 
@@ -169,10 +162,10 @@ function SPCFinancialPage() {
               and feature set.
             </p>
             <p>
-              This project posed a unique challenge: the{" "}
-              <mark>melding together of familiar experiences</mark> for their
-              older clients, whilst also <mark>innovating and modernizing</mark>{" "}
-              to appeal to younger, more tech-savvy audiences.
+              This project posed a unique challenge: the melding together of
+              familiar experiences for their older clients, whilst also
+              innovating and modernizing to appeal to younger, more tech-savvy
+              audiences.
             </p>
             <p>
               Attention was paid to ensure the continued operation of old links
@@ -181,16 +174,15 @@ function SPCFinancialPage() {
               over-cluttering the page.
             </p>
             <p>
-              SPC's brand refresh doubles down on their human-centric focus;{" "}
-              <mark>all website copy was modified</mark> to incorporate the new
-              language. SPC's colors, blue and gold, are prominent across their
-              brand. It was important to keep a <mark>cohesive appearance</mark>{" "}
-              both across the site and across other materials, including
-              documents, apparel, and accessories.
+              SPC's brand refresh doubles down on their human-centric focus; all
+              website copy was modified to incorporate the new language. SPC's
+              colors, blue and gold, are prominent across their brand. It was
+              important to keep a cohesive appearance both across the site and
+              across other materials, including documents, apparel, and
+              accessories.
             </p>
             <p>
-              <b>&there4;</b> In the end,{" "}
-              <mark>I spearheaded the implementation of</mark>:
+              <b>&there4;</b> In the end, I spearheaded the implementation of:
             </p>
             <ul className="list pb-0">
               <li>Advisor Live Chat</li>
@@ -220,19 +212,16 @@ function SPCFinancialPage() {
             <p>
               As an investment advisory firm, SPC has a second-party
               broker-dealer. Due to the nature of handling financial
-              information,{" "}
-              <mark>
-                compliance, privacy, and security are key considerations
-              </mark>{" "}
-              at every step of the process, from concept to continued
-              maintenance.
+              information, compliance, privacy, and security are key
+              considerations at every step of the process, from concept to
+              continued maintenance.
             </p>
             <p>
-              <mark>Along the way, I was in constant communication</mark> with
-              the firm's Chief Compliance Officer and VP of Marketing &amp;
-              Communications, while also working with the broker-dealer's
-              Advertising, Compliance, Risk Assessment, Social Media, and
-              Third-Party Vendor teams.
+              Along the way, I was in constant communication with the firm's
+              Chief Compliance Officer and VP of Marketing &amp; Communications,
+              while also working with the broker-dealer's Advertising,
+              Compliance, Risk Assessment, Social Media, and Third-Party Vendor
+              teams.
             </p>
             <p>
               This involvement included drafting disclaimers and disclosures,
@@ -268,13 +257,13 @@ function SPCFinancialPage() {
             <p>
               Not long into the redesign process, it was decided it was time for
               a re-centering of the company. To match their now-modernized
-              aesthetic, I <mark>crafted a new logo</mark> and assisted in the
-              creation of a new tagline. That tagline,{" "}
+              aesthetic, I crafted a new logo and assisted in the creation of a
+              new tagline. That tagline,{" "}
               <i>
                 Finance on a Human Level<sup>&reg;</sup>
               </i>{" "}
-              is now a <mark>registered trademark</mark> with the United States
-              Patent and Trademark Office.
+              is now a registered trademark with the United States Patent and
+              Trademark Office.
             </p>
           </div>
         </article>
