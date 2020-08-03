@@ -4,9 +4,7 @@ import { Link } from "gatsby"
 class Navigation extends Component {
   render() {
     return (
-      <nav
-        className={["main-nav", !!this.props.stuck ? "stuck" : ""].join(" ")}
-      >
+      <nav className="main-nav">
         <ul>
           <li className={this.props.active === "myWork" ? "active" : ""}>
             <Link to="/">Experience</Link>
