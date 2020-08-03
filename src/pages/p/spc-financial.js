@@ -63,7 +63,7 @@ function SPCFinancialPage() {
           <h3>Contents</h3>
           <ul role="list" className="contents">
             <li>
-              <a href="#summary">Summary</a>
+              <a href="#highlights">Highlights</a>
             </li>
             <li>
               <a href="#website">Website</a>
@@ -78,9 +78,9 @@ function SPCFinancialPage() {
         </aside>
       </div>
 
-      <section>
-        <h3>Summary:</h3>
-        <article className="summary">
+      <section id="highlights">
+        <h3>Highlights:</h3>
+        <article className="highlights">
           <ul className="list">
             <li>
               <span>

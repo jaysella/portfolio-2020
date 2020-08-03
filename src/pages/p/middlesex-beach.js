@@ -74,9 +74,9 @@ function MiddlesexBeachPage({ data }) {
         </aside>
       </div>
 
-      <section>
-        <h3>Summary:</h3>
-        <article className="summary">
+      <section id="highlights">
+        <h3>Highlights:</h3>
+        <article className="highlights">
           {/* <p>In my time volunteering with Middlesex Beach I have spearheaded a <mark>complete overhaul of their website</mark> with the rollout of individual user logins to ease access to protected documents. I have also served as the <mark>primary contact person</mark> for fielding general inquiries and managing general processes.</p> */}
           <ul className="list">
             <li>
