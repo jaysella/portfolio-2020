@@ -119,17 +119,6 @@ function SPCFinancialPage() {
         <article className="details">
           <div className="block">
             <h4>
-              <mark>Background</mark>
-            </h4>
-            <p>
-              SPC is an independent registered investment advisory firm in the
-              Washington, D.C. Metro area with nearly $1 billion in assets under
-              advisement + management.
-            </p>
-          </div>
-
-          <div className="block">
-            <h4>
               <mark>Problem</mark>
             </h4>
             <p>
@@ -140,7 +129,7 @@ function SPCFinancialPage() {
             </p>
             <p>
               When approached with our visions,{" "}
-              <i>the company often failed to deliver</i>.
+              <i>that service often failed to deliver</i>.
             </p>
             <p>
               Eventually, our frustration with their reluctance to iterate and
