@@ -61,7 +61,7 @@ function CastelloRagazziPage() {
             </li>
             {/* <li><a href="#website">Website</a></li> */}
             <li>
-              <a href="#gallery">Gallery</a>
+              <a href="#designs">Designs</a>
             </li>
           </ul>
         </aside>
@@ -98,8 +98,8 @@ function CastelloRagazziPage() {
 				</article>
 			</section> */}
 
-      <section id="gallery">
-        <h3>Gallery:</h3>
+      <section id="designs">
+        <h3>Designs:</h3>
         <Gallery photos={crPhotos} onClick={openLightbox} />
       </section>
 
