@@ -1,23 +1,28 @@
 export const photos = [
   {
+    src: "/gallery/deja-de-vapear.png",
+    width: 16,
+    height: 10,
+  },
+  {
+    src: "/gallery/spc-happy-new-year.png",
+    width: 1,
+    height: 1,
+  },
+  {
+    src: "/gallery/castello-ragazzi.png",
+    width: 1200,
+    height: 684,
+  },
+  {
     src: "/gallery/middlesex-beach-symbol.png",
     width: 1,
     height: 1,
   },
   {
     src: "/gallery/spc-in-person-meeting.png",
-    width: 2,
-    height: 4,
-  },
-  {
-    src: "/gallery/deja-de-vapear.png",
-    width: 16,
-    height: 10,
-  },
-  {
-    src: "/gallery/middlesex-beach-flows.png",
-    width: 10,
-    height: 7.7,
+    width: 564,
+    height: 1059,
   },
   {
     src: "/gallery/spc-table-topper.png",
@@ -28,16 +33,6 @@ export const photos = [
     src: "/gallery/middlesex-beach-2020-beach-pass.png",
     width: 823,
     height: 576,
-  },
-  {
-    src: "/gallery/spc-happy-new-year.png",
-    width: 1,
-    height: 1,
-  },
-  {
-    src: "/gallery/spoonriver.png",
-    width: 2878,
-    height: 1454,
   },
   {
     src: "/gallery/abbey-field-day.png",
@@ -55,24 +50,9 @@ export const photos = [
     height: 684,
   },
   {
-    src: "/gallery/spc-townhall-invite-12.png",
-    width: 4,
-    height: 2,
-  },
-  {
-    src: "/gallery/castello-ragazzi.png",
-    width: 1200,
-    height: 684,
-  },
-  {
     src: "/gallery/mbm-shirt-kids.jpg",
     width: 1,
     height: 1,
-  },
-  {
-    src: "/gallery/spoonriver-web.png",
-    width: 2858,
-    height: 1616,
   },
   {
     src: "/gallery/spc-logo.png",
@@ -90,11 +70,6 @@ export const photos = [
     height: 2,
   },
   {
-    src: "/gallery/spc-invited.png",
-    width: 750,
-    height: 300,
-  },
-  {
     src: "/gallery/middlesex-beach.png",
     width: 1200,
     height: 684,
@@ -103,15 +78,5 @@ export const photos = [
     src: "/gallery/spc-wallpaper.png",
     width: 2775,
     height: 1250,
-  },
-  {
-    src: "/gallery/situacion-en-chile-cronologia.png",
-    width: 16,
-    height: 9,
-  },
-  {
-    src: "/gallery/sra-initial.png",
-    width: 16,
-    height: 9,
   },
 ]
