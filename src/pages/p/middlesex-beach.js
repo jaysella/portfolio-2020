@@ -53,8 +53,8 @@ function MiddlesexBeachPage({ data }) {
           </p>
           <h1>Middlesex Beach Association</h1>
           <p className="info">
-            An HOA for a private community on the Eastern Shore with nearly 250
-            properties.
+            A Homeowners Association for a private community on the Eastern
+            Shore with nearly 250 properties.
           </p>
         </section>
 
@@ -81,35 +81,15 @@ function MiddlesexBeachPage({ data }) {
           <ul className="list">
             <li>
               <span>
-                Carried out a complete overhaul of HOA's website,{" "}
-                <mark>serving 1,400 users/month</mark>
-              </span>
-            </li>
-            <li>
-              <span>
-                Served as a point-of-contact between the Board, employees,
-                owners, and property management, exchanging{" "}
-                <mark>1,000+ emails</mark> over a 3-year span
-              </span>
-            </li>
-            <li>
-              <span>
-                Published <mark>880 ownership record changes</mark> resulting in
-                a <mark>62% increase</mark> in reliable homeowner communication
-                channels
-              </span>
-            </li>
-            <li>
-              <span>
                 Implemented a mass communication service to reliably communicate
-                with owners, sending 74 email campaigns with an average{" "}
+                with owners, sending 75 email campaigns with an average{" "}
                 <mark>75% engagement rate</mark>
               </span>
             </li>
             <li>
               <span>
-                Crafted + developed a{" "}
-                <i>Hologram + QR Code Verification System</i>, responsible for{" "}
+                Crafted and engineered a{" "}
+                <i>Hologram/QR Code Verification System</i>, responsible for{" "}
                 <mark>5,000+ scans</mark>/year{" "}
                 <small>(during peak summer months)</small>
               </span>
@@ -118,7 +98,26 @@ function MiddlesexBeachPage({ data }) {
               <span>
                 Designed, marketed, and sold{" "}
                 <mark>$6,300 worth of merchandise</mark> for a community
-                fundraiser <small>(at no cost to the HOA)</small>
+                fundraiser
+              </span>
+            </li>
+            <li>
+              <span>
+                Published <mark>950+ ownership record changes</mark> resulting
+                in a <mark>62% increase</mark> in reliable homeowner
+                communication channels
+              </span>
+            </li>
+            <li>
+              <span>
+                Carried out a <mark>complete overhaul of HOA's website</mark>
+              </span>
+            </li>
+            <li>
+              <span>
+                Served as a point-of-contact between the Board, employees,
+                owners, and property management,{" "}
+                <mark>handling 700+ inquiries</mark>
               </span>
             </li>
           </ul>
@@ -136,11 +135,11 @@ function MiddlesexBeachPage({ data }) {
             <p>
               When I assumed control of the HOA's website, there was
               little-to-no style, making it near impossible to navigate and find
-              information. I set out on a mission to build a brand new website
-              while prioritizing the most common information, standardizing
-              formats, and focusing on ease of navigation. Today, the
-              Association's website is one of the most robust for any HOA in the
-              area.
+              information. I set out to build a brand new website while
+              prioritizing the most commonly requested and searched for
+              information, standardizing formats, and focusing on ease of
+              navigation. Today, it is one of the most robust HOA websites in
+              the area.
             </p>
 
             <div className="actions">
@@ -169,12 +168,12 @@ function MiddlesexBeachPage({ data }) {
         <article className="project text-only">
           <div>
             <p>
-              As part of an initiative to enliven community spirit and help
-              generate revenue to curb HOA dues, I designed and sold
-              Middlesex-themed apparel, umbrellas, drink koozies, totes, and
-              stickers. This also resulted in the development of a website for
-              people to view the products, reserve their purchases, and
-              communicate with our group.
+              To enliven community spirit and generate revenue to lower HOA
+              fees, I designed and sold Middlesex-themed apparel, umbrellas, and
+              beach accessories. However, the team faced challenges from a
+              limited digital presence and uncertain demand. This also resulted
+              in the development of a website for people to view the products,
+              reserve their purchases, and communicate with our group.
             </p>
           </div>
         </article>

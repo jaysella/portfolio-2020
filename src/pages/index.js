@@ -53,9 +53,9 @@ class IndexPage extends Component {
                 <h4>Marketing + Communications Intern</h4>
                 <h2>SPC Financial&reg;</h2>
                 <p>
-                  Conducted a complete redesign and rebuild of the firm's
-                  website and marketing materials to modernize the user
-                  experience and help clients + prospects find answers, faster.
+                  Redesigned and rebuilt the firm's website and marketing
+                  materials to modernize the user experience and help clients +
+                  prospects find answers faster.
                 </p>
 
                 <div className="actions">
@@ -79,22 +79,16 @@ class IndexPage extends Component {
 
             <article className="project featured slideUp">
               <div className="left">
-                <h4>Webmaster + Point-of-Contact</h4>
+                <h4>Webmaster + Central Technology Consultant</h4>
                 <h2>Middlesex Beach Association</h2>
                 <p>
-                  Served as central technology consultant for the Board. This
-                  included projects such as overhauling the HOA’s website,
-                  developing a QR Code Verification System, and serving a
-                  primary point-of-contact, fielding questions from{" "}
-                  <i>"how do I change my mailing address?"</i> to{" "}
-                  <i>
-                    "how fast can you email residents about a water main break?"
-                  </i>
+                  I overhauled the HOA’s website, implemented a QR Code
+                  Verification System, and serving a primary point-of-contact,
                 </p>
 
                 <div className="actions">
                   <Link to="/p/middlesex-beach" className="button--prominent">
-                    More info <span>&rarr;</span>
+                    Details <span>&rarr;</span>
                   </Link>
                   <a
                     href="//middlesexbeach.org"
@@ -116,10 +110,9 @@ class IndexPage extends Component {
                 <h4>Webmaster + Communications Liaison</h4>
                 <h2>Castello Ragazzi, LLC</h2>
                 <p>
-                  Castello Ragazzi owned + managed a beach rental property. I
-                  designed + developed several iterations of a website marketing
-                  the property, whilst also facilitating communication with
-                  guests before, during, and after their stay.
+                  I designed + developed a website marketing a beach rental
+                  property, whilst managing communication with guests before,
+                  during, and after their stay.
                 </p>
 
                 <div className="actions">
@@ -142,7 +135,7 @@ class IndexPage extends Component {
                   <h4>Gatsby.js &bull; Sass &bull; Netlify</h4>
                   <h2>Spoon River Anthology</h2>
                   <p>
-                    An interactive exploration of Edgar Lee Masters'{" "}
+                    Created an interactive exploration of Edgar Lee Masters'{" "}
                     <i>Spoon River Anthology</i>: analysis, characters,
                     connections.
                   </p>
@@ -165,9 +158,8 @@ class IndexPage extends Component {
                   <h4>Website Consultant</h4>
                   <h2>Sella &amp; Martinic, LLC</h2>
                   <p>
-                    Assumed control of the company's site in 2017 to help
-                    revitalize the content and reflect changes among the staff
-                    and company itself.
+                    Assumed control of the company's site in 2017 to revitalize
+                    content and reflect changes among the staff and company.
                   </p>
 
                   <div className="actions">
@@ -186,7 +178,7 @@ class IndexPage extends Component {
               <article className="project small slideUp">
                 <div className="inner">
                   <h4>Student Communications Director</h4>
-                  <h2>St. Anselm's Abbey School</h2>
+                  <h2>St. Anselm's Abbey School — Student Government</h2>
                   <p>
                     In 2019, I automated student data and aggregation processes
                     to reduce workload and remove bias. I also assumed the role

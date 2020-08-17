@@ -84,14 +84,15 @@ function SPCFinancialPage() {
           <ul className="list">
             <li>
               <span>
-                Led a complete redesign + rebuild of the firm's website,
-                handling <mark>15,000 pageviews/month</mark>
+                Redesigned and rebuilt the firm's corporate website,{" "}
+                <mark>handling 15,000 pageviews/month</mark>
               </span>
             </li>
             <li>
               <span>
-                Launched electronic invoicing and payment processing, saving{" "}
-                <mark>$1,000+/year and faster turn-around</mark>
+                Launched electronic invoicing and payment processing system via
+                Stripe, <mark>saving $1,000 in annual operating costs</mark> and
+                faster turn-around
               </span>
             </li>
             <li>
@@ -122,19 +123,16 @@ function SPCFinancialPage() {
               <mark>Problem</mark>
             </h4>
             <p>
-              Initially, SPC was contracted with a third-party company to
-              design, develop, and maintain their site on the firm's behalf. As
-              I became increasingly involved in the organization, we discovered
-              + realized new functionality we wanted implemented.
+              For years, SPC had contracted with a third-party company to
+              design, develop, and maintain their corporate website. I became
+              involved to do XXXXXX. However, whenever my team and I approached
+              the contractor about new site functionality, they often failed to
+              deliver.
             </p>
             <p>
-              When approached with our visions,{" "}
-              <i>that service often failed to deliver</i>.
-            </p>
-            <p>
-              Eventually, our frustration with their reluctance to iterate and
-              improve became too much of a roadblock; their philosophy did not
-              match the firm's human-centricity.
+              Ultimately, their reluctance to innovate became too much of a
+              roadblock; it was time to design and build a new site, from
+              scratch.
             </p>
             <p>
               <b>&there4;</b> This was the time to see our visions through
@@ -147,28 +145,27 @@ function SPCFinancialPage() {
               <mark>Solution</mark>
             </h4>
             <p>
-              With a clean slate, I got to work modernizing the content, design,
+              With a clean slate, I set out to modernize the content, design,
               and feature set.
             </p>
             <p>
-              This project posed a unique challenge: the melding together of
-              familiar experiences for their older clients, whilst also
-              innovating and modernizing to appeal to younger, more tech-savvy
-              audiences.
+              This project posed a unique challenge: how could we modernize the
+              site to appeal to younger, more tech-savvy audiences while
+              providing a familiar experience for older clients?
             </p>
             <p>
-              Attention was paid to ensure the continued operation of old links
-              while also optimizing ease of navigation. New features and
-              functionality were added without overloading the user or
-              over-cluttering the page.
+              The new design doubles down on SPC’s human-centric approach. I
+              worked with the team to refresh all website copy to incorporate
+              this new focus. I paid special attention when adding while also
+              optimizing ease of navigation. New features and functionality were
+              added without to avoid cluttering the page and overloading users.
             </p>
             <p>
-              SPC's brand refresh doubles down on their human-centric focus; all
-              website copy was modified to incorporate the new language. SPC's
-              colors, blue and gold, are prominent across their brand. It was
-              important to keep a cohesive appearance both across the site and
-              across other materials, including documents, apparel, and
-              accessories.
+              SPC's colors, blue and gold, remain prominent across the design to
+              keep a cohesive appearance both across the site and across the
+              firm’s print materials, apparel, and accessories. Finally, I
+              ensured the continued operation of old links to minimize
+              disruption to existing clients.
             </p>
             <p>
               <b>&there4;</b> In the end, I spearheaded the implementation of:
@@ -199,18 +196,15 @@ function SPCFinancialPage() {
               <mark>Compliance + SEC Regulations</mark>
             </h4>
             <p>
-              As an investment advisory firm, SPC has a second-party
-              broker-dealer. Due to the nature of handling financial
-              information, compliance, privacy, and security are key
-              considerations at every step of the process, from concept to
-              continued maintenance.
+              Compliance, privacy, and security are key considerations in the
+              marketing process for a financial service firm.
             </p>
             <p>
-              Along the way, I was in constant communication with the firm's
-              Chief Compliance Officer and VP of Marketing &amp; Communications,
-              while also working with the broker-dealer's Advertising,
-              Compliance, Risk Assessment, Social Media, and Third-Party Vendor
-              teams.
+              Throughout this project, I was in constant communication with the
+              firm's Chief Compliance Officer, VP of Marketing &amp;
+              Communications, and various teams in the broker-dealer's corporate
+              office including Advertising, Compliance, Risk Assessment, Social
+              Media, and Third-Party Vendors.
             </p>
             <p>
               This involvement included drafting disclaimers and disclosures,
@@ -231,11 +225,12 @@ function SPCFinancialPage() {
         <article className="details">
           <div className="block">
             <p>
-              Working with SPC's marketing team and to reflect the stylistic
-              changes implemented on the website, I embarked on a mission to
-              update other branch materials including presentation templates,
-              logos, and stationery such as letterhead, envelopes, and business
-              cards. This also carried over to changes in advertising styles.
+              Upon completing stylistic changes on SPC’s website, I embarked on
+              a mission to update other branch materials in partnership with
+              SPC’s marketing team. We created new marketing collateral
+              including presentation templates, logos, stationery,and business
+              cards. We also chose to extend the new tone and aesthetic to the
+              firm’s advertising campaigns.
             </p>
           </div>
 
