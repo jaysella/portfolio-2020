@@ -84,27 +84,24 @@ function SPCFinancialPage() {
           <ul className="list">
             <li>
               <span>
-                Redesigned and rebuilt the firm's corporate website,{" "}
-                <mark>handling 15,000 pageviews/month</mark>
-              </span>
-            </li>
-            <li>
-              <span>
                 Launched electronic invoicing and payment processing system via
                 Stripe, <mark>saving $1,000 in annual operating costs</mark> and
-                faster turn-around
+                <mark>15 hours of employee time</mark> during the annual billing
+                cycle
               </span>
             </li>
             <li>
               <span>
-                Rolled out online appointment scheduling, handling{" "}
-                <mark>450 appointments in the first 6 months</mark>
+                Rolled out online appointment scheduling, handling neatly{" "}
+                <mark>600 appointments</mark> and saving{" "}
+                <mark>16 hours of employee time</mark> per month
               </span>
             </li>
             <li>
               <span>
-                Implemented live chat with the firm's advisors, handling{" "}
-                <mark>100+ communications in the first year</mark>
+                Implemented live chat with the firm's advisors, handling the
+                needs of <mark>100 clients and prospects</mark> in the first
+                year
               </span>
             </li>
           </ul>
@@ -120,14 +117,32 @@ function SPCFinancialPage() {
         <article className="details">
           <div className="block">
             <h4>
+              <mark>Logo + Tagline</mark>
+            </h4>
+            <p>
+              Not long into the redesign process, it was decided it was time for
+              a re-centering of the company. To match their now-modernized
+              aesthetic, I crafted a new logo and assisted in the creation of a
+              new tagline. That tagline,{" "}
+              <i>
+                Finance on a Human Level<sup>&reg;</sup>
+              </i>{" "}
+              is now a registered trademark with the United States Patent and
+              Trademark Office.
+            </p>
+          </div>
+
+          <div className="block">
+            <h4>
               <mark>Problem</mark>
             </h4>
             <p>
               For years, SPC had contracted with a third-party company to
               design, develop, and maintain their corporate website. I became
-              involved to do XXXXXX. However, whenever my team and I approached
-              the contractor about new site functionality, they often failed to
-              deliver.
+              involved to learn the inner workings of the firm’s Marketing
+              department and assist in the maintenance and enhancement of their
+              website. However, whenever my team and I approached the contractor
+              about new site functionality, they often failed to deliver.
             </p>
             <p>
               Ultimately, their reluctance to innovate became too much of a
@@ -231,23 +246,6 @@ function SPCFinancialPage() {
               including presentation templates, logos, stationery,and business
               cards. We also chose to extend the new tone and aesthetic to the
               firm’s advertising campaigns.
-            </p>
-          </div>
-
-          <div className="block">
-            <h4>
-              <mark>Logo + Tagline</mark>
-            </h4>
-            <p>
-              Not long into the redesign process, it was decided it was time for
-              a re-centering of the company. To match their now-modernized
-              aesthetic, I crafted a new logo and assisted in the creation of a
-              new tagline. That tagline,{" "}
-              <i>
-                Finance on a Human Level<sup>&reg;</sup>
-              </i>{" "}
-              is now a registered trademark with the United States Patent and
-              Trademark Office.
             </p>
           </div>
         </article>

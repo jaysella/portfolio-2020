@@ -82,42 +82,38 @@ function MiddlesexBeachPage({ data }) {
             <li>
               <span>
                 Implemented a mass communication service to reliably communicate
-                with owners, sending 75 email campaigns with an average{" "}
+                with owners, sending 77 email campaigns with an average{" "}
                 <mark>75% engagement rate</mark>
               </span>
             </li>
             <li>
               <span>
                 Crafted and engineered a{" "}
-                <i>Hologram/QR Code Verification System</i>, responsible for{" "}
-                <mark>5,000+ scans</mark>/year{" "}
+                <i>Hologram &amp; QR Code Verification System</i>, responsible
+                for <mark>5,000+ scans</mark>/year{" "}
                 <small>(during peak summer months)</small>
               </span>
             </li>
             <li>
               <span>
                 Designed, marketed, and sold{" "}
-                <mark>$6,300 worth of merchandise</mark> for a community
+                <mark>$6,000+ worth of merchandise</mark> for a community
                 fundraiser
               </span>
             </li>
             <li>
               <span>
-                Published <mark>950+ ownership record changes</mark> resulting
-                in a <mark>62% increase</mark> in reliable homeowner
+                Established and managed the procedures and databases for
+                processing nearly <mark>1,000 owner profile changes</mark>,
+                resulting in a <mark>62% increase</mark> in reliable
                 communication channels
-              </span>
-            </li>
-            <li>
-              <span>
-                Carried out a <mark>complete overhaul of HOA's website</mark>
               </span>
             </li>
             <li>
               <span>
                 Served as a point-of-contact between the Board, employees,
                 owners, and property management,{" "}
-                <mark>handling 700+ inquiries</mark>
+                <mark>handling 700+ support inquiries</mark> over a 3-year span
               </span>
             </li>
           </ul>
@@ -127,7 +123,7 @@ function MiddlesexBeachPage({ data }) {
       <section className={styles.project} id="website">
         <h3>Website:</h3>
         <p>
-          <span>&#8627;</span> Webmaster + Point-of-Contact [Volunteer]
+          <span>&#8627;</span> Webmaster + Communications Officer [Volunteer]
         </p>
 
         <article className="project featured">
@@ -173,7 +169,11 @@ function MiddlesexBeachPage({ data }) {
               beach accessories. However, the team faced challenges from a
               limited digital presence and uncertain demand. This also resulted
               in the development of a website for people to view the products,
-              reserve their purchases, and communicate with our group.
+              reserve their purchases, and communicate with our group. The
+              website was built in PHP with a MySQL database backend for
+              inventory management. Responsible for communications, I connected
+              both over a dedicated email and through Chatra, a live chat
+              service.
             </p>
           </div>
         </article>

@@ -73,12 +73,14 @@ function CastelloRagazziPage() {
           <ul className="list">
             <li>
               <span>
-                Designed + developed <mark>three website iterations</mark> over
-                a three-year period
+                Designed, developed, and maintained website and rental listing resulting in <mark>10 rentals and $12k in revenue per year</mark>
               </span>
             </li>
             <li>
-              <span>Communicated with [] tenants and prospective renters</span>
+              <span>Communicated with prospective renters and tenants resulting in an <mark>average review of 5 stars</mark></span>
+            </li>
+            <li>
+              <span>Assembled a <mark>locals’ guide</mark> for tenants’ reference while at the property</span>
             </li>
           </ul>
         </article>

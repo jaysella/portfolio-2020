@@ -60,7 +60,7 @@ class IndexPage extends Component {
 
                 <div className="actions">
                   <Link to="/p/spc-financial" className="button--prominent">
-                    Details <span>&rarr;</span>
+                    More Info <span>&rarr;</span>
                   </Link>
                   <a
                     href="//spcfinancial.com"
@@ -83,12 +83,14 @@ class IndexPage extends Component {
                 <h2>Middlesex Beach Association</h2>
                 <p>
                   I overhauled the HOA’s website, implemented a QR Code
-                  Verification System, and serving a primary point-of-contact,
+                  Verification System, and served as a central technology
+                  consultant for evaluating and maintaining the Association's
+                  infrastructure.
                 </p>
 
                 <div className="actions">
                   <Link to="/p/middlesex-beach" className="button--prominent">
-                    Details <span>&rarr;</span>
+                    More Info <span>&rarr;</span>
                   </Link>
                   <a
                     href="//middlesexbeach.org"
@@ -107,7 +109,7 @@ class IndexPage extends Component {
 
             <article className="project featured slideUp">
               <div className="left">
-                <h4>Webmaster + Communications Liaison</h4>
+                <h4>Webmaster + Communications Officer</h4>
                 <h2>Castello Ragazzi, LLC</h2>
                 <p>
                   I designed + developed a website marketing a beach rental
@@ -117,7 +119,7 @@ class IndexPage extends Component {
 
                 <div className="actions">
                   <Link to="/p/castello-ragazzi" className="button--prominent">
-                    Dive in <span>&rarr;</span>
+                    More Info <span>&rarr;</span>
                   </Link>
                 </div>
               </div>
@@ -177,13 +179,12 @@ class IndexPage extends Component {
 
               <article className="project small slideUp">
                 <div className="inner">
-                  <h4>Student Communications Director</h4>
+                  <h4>Communications Director</h4>
                   <h2>St. Anselm's Abbey School — Student Government</h2>
                   <p>
-                    In 2019, I automated student data and aggregation processes
-                    to reduce workload and remove bias. I also assumed the role
-                    of Communications Director for the 2020-21 student
-                    government.
+                    I automated student assignments for school events and lunch
+                    cleanup, increasing accountability and reliability in much
+                    less time.
                   </p>
                 </div>
               </article>
