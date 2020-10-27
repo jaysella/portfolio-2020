@@ -55,7 +55,7 @@ function CastelloRagazziPage() {
 
         <aside className={styles.toc}>
           <h3>Contents</h3>
-          <ul role="list" className="contents">
+          <ul className="contents">
             <li>
               <a href="#highlights">Highlights</a>
             </li>
@@ -73,14 +73,22 @@ function CastelloRagazziPage() {
           <ul className="list">
             <li>
               <span>
-                Designed, developed, and maintained website and rental listing resulting in <mark>10 rentals and $12k in revenue per year</mark>
+                Designed, developed, and maintained website and rental listing
+                resulting in{" "}
+                <mark>10 rentals and $12k in revenue per year</mark>
               </span>
             </li>
             <li>
-              <span>Communicated with prospective renters and tenants resulting in an <mark>average review of 5 stars</mark></span>
+              <span>
+                Communicated with prospective renters and tenants resulting in
+                an <mark>average review of 5 stars</mark>
+              </span>
             </li>
             <li>
-              <span>Assembled a <mark>locals’ guide</mark> for tenants’ reference while at the property</span>
+              <span>
+                Assembled a <mark>locals’ guide</mark> for tenants’ reference
+                while at the property
+              </span>
             </li>
           </ul>
         </article>

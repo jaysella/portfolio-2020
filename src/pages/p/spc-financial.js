@@ -61,7 +61,7 @@ function SPCFinancialPage() {
 
         <aside className={styles.toc}>
           <h3>Contents</h3>
-          <ul role="list" className="contents">
+          <ul className="contents">
             <li>
               <a href="#highlights">Highlights</a>
             </li>

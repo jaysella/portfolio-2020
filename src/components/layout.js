@@ -45,7 +45,7 @@ const Layout = ({ children }) => {
               <a
                 href="//flaticon.com"
                 target="_blank"
-                rel="noopener referrer nofollow"
+                rel="noopener noreferrer nofollow"
               >
                 www.flaticon.com
               </a>

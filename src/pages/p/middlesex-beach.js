@@ -60,7 +60,7 @@ function MiddlesexBeachPage({ data }) {
 
         <aside className={styles.toc}>
           <h3>Contents</h3>
-          <ul role="list" className="contents">
+          <ul className="contents">
             <li>
               <a href="#website">Website</a>
             </li>
