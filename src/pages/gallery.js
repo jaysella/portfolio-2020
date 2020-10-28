@@ -41,7 +41,7 @@ function GalleryPage() {
             <h4>
               <mark>Websites</mark>
             </h4>
-            <Gallery filter="website" autoHeight />
+            <Gallery filter="website" sort="ASC" autoHeight />
           </div>
 
           <div className="block">
@@ -68,10 +68,10 @@ function GalleryPage() {
             <h4>
               <mark>The Priory Press</mark>
             </h4>
-            <Gallery filter="priory-press" autoHeight />
+            <Gallery filter="priory-press" sort="ASC" autoHeight />
             <p className="caption">
               <em>
-                <b>View full editions</b>:{" "}
+                <b>Full editions</b>:{" "}
                 <a
                   href="https://drive.google.com/file/d/11I9qMWeSkE1Iw3iHdc1HltpOPjQEhDQn/view"
                   target="_blank"
@@ -111,7 +111,32 @@ function GalleryPage() {
             <h4>
               <mark>The Priory Perspective</mark>
             </h4>
-            <Gallery filter="priory-perspective" autoHeight />
+            <Gallery filter="priory-perspective" sort="ASC" autoHeight />
+          </div>
+        </article>
+      </section>
+
+      <section className={styles.project} id="website">
+        <h3>Photography:</h3>
+
+        <article className="details">
+          <div className="block">
+            <h4>
+              <mark>Origami</mark>
+            </h4>
+            <Gallery filter="origami" autoHeight />
+            <p className="caption">
+              <em>
+                <b>Some featured in</b>: John Montroll's{" "}
+                <a
+                  href="http://www.johnmontroll.com/books/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Origami Symphony No. 3
+                </a>
+              </em>
+            </p>
           </div>
         </article>
       </section>

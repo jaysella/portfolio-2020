@@ -11,7 +11,7 @@ function Gallery(props) {
   const [showImageIndex, setShowImageIndex] = useState(undefined)
 
   return (
-    <div randomAttribute={props.attrib}>
+    <div>
       <div
         className={[
           styles.grid,
@@ -19,31 +19,41 @@ function Gallery(props) {
           props.maxThreeCols ? styles.maxThreeCols : "",
         ].join(" ")}
       >
-        {images.map((image, index) => (
-          <>
-            {(!!props.filter ? image.name.includes(props.filter) : true) && (
-              <div
-                className={styles.tile}
-                key={image.id}
-                attrib={index}
-                role="button"
-                tabIndex={0}
-                onClick={() => {
-                  setShowImageIndex(index)
-                }}
-                onKeyDown={() => {
-                  setShowImageIndex(index)
-                }}
-              >
-                <Img
-                  alt={image.name}
-                  fluid={image.fluid}
-                  className={styles.image}
-                />
-              </div>
-            )}
-          </>
-        ))}
+        {images
+          .sort((a, b) =>
+            props.sort === "ASC"
+              ? a.name < b.name
+                ? 1
+                : -1
+              : a.name > b.name
+              ? 1
+              : -1
+          )
+          .map((image, index) => (
+            <>
+              {(!!props.filter ? image.name.includes(props.filter) : true) && (
+                <div
+                  className={styles.tile}
+                  key={image.id + index}
+                  attrib={index}
+                  role="button"
+                  tabIndex={0}
+                  onClick={() => {
+                    setShowImageIndex(index)
+                  }}
+                  onKeyDown={() => {
+                    setShowImageIndex(index)
+                  }}
+                >
+                  <Img
+                    alt={image.name}
+                    fluid={image.fluid}
+                    className={styles.image}
+                  />
+                </div>
+              )}
+            </>
+          ))}
       </div>
 
       {showImageIndex !== undefined && (

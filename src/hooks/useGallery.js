@@ -5,7 +5,7 @@ const useGallery = () => {
     query GalleryQuery {
       allFile(
         filter: { sourceInstanceName: { eq: "static/gallery" } }
-        sort: { order: DESC, fields: [birthTime] }
+        sort: { order: ASC, fields: [name] }
       ) {
         nodes {
           id
