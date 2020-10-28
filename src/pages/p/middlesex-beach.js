@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from "react"
+import React from "react"
 import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
 
@@ -7,33 +7,7 @@ import SEO from "../../components/seo"
 
 import styles from "./project.module.sass"
 
-import Gallery from "react-photo-gallery"
-import Carousel, { Modal, ModalGateway } from "react-images"
-import { photos } from "../../assets/data/gallery-photos"
-
 function MiddlesexBeachPage({ data }) {
-  const [currentImage, setCurrentImage] = useState(0)
-  const [viewerIsOpen, setViewerIsOpen] = useState(false)
-
-  const openLightbox = useCallback((event, { photo, index }) => {
-    setCurrentImage(index)
-    setViewerIsOpen(true)
-  }, [])
-
-  const closeLightbox = () => {
-    setCurrentImage(0)
-    setViewerIsOpen(false)
-  }
-
-  const mbPhotos = !!photos
-    ? photos.filter(function (photo) {
-        if (photo.src.includes("beach") || photo.src.includes("mbm")) {
-          return photo
-        }
-        return null
-      })
-    : []
-
   return (
     <Layout>
       <SEO title="Home" />
@@ -66,9 +40,6 @@ function MiddlesexBeachPage({ data }) {
             </li>
             <li>
               <a href="#the-marketplace">The Marketplace</a>
-            </li>
-            <li>
-              <a href="#designs">Designs</a>
             </li>
           </ul>
         </aside>
@@ -178,26 +149,6 @@ function MiddlesexBeachPage({ data }) {
           </div>
         </article>
       </section>
-
-      <section id="designs">
-        <h3>Designs:</h3>
-        <Gallery photos={mbPhotos} onClick={openLightbox} />
-      </section>
-
-      <ModalGateway>
-        {viewerIsOpen ? (
-          <Modal onClose={closeLightbox}>
-            <Carousel
-              currentIndex={currentImage}
-              views={mbPhotos.map((x) => ({
-                ...x,
-                srcset: x.srcSet,
-                caption: x.title,
-              }))}
-            />
-          </Modal>
-        ) : null}
-      </ModalGateway>
     </Layout>
   )
 }
@@ -206,13 +157,7 @@ export default MiddlesexBeachPage
 
 export const query = graphql`
   query {
-    spcFinancial: file(relativePath: { eq: "spc-financial.png" }) {
-      ...projectImage
-    }
     middlesexBeach: file(relativePath: { eq: "middlesex-beach.png" }) {
-      ...projectImage
-    }
-    castelloRagazzi: file(relativePath: { eq: "castello-ragazzi.png" }) {
       ...projectImage
     }
   }

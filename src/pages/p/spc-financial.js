@@ -1,35 +1,14 @@
-import React, { useState, useCallback } from "react"
+import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 
+import Gallery from "../../components/Gallery"
+
 import styles from "./project.module.sass"
 
-import Gallery from "react-photo-gallery"
-import Carousel, { Modal, ModalGateway } from "react-images"
-import { photos } from "../../assets/data/gallery-photos"
-
 function SPCFinancialPage() {
-  const [currentImage, setCurrentImage] = useState(0)
-  const [viewerIsOpen, setViewerIsOpen] = useState(false)
-
-  const openLightbox = useCallback((event, { photo, index }) => {
-    setCurrentImage(index)
-    setViewerIsOpen(true)
-  }, [])
-
-  const closeLightbox = () => {
-    setCurrentImage(0)
-    setViewerIsOpen(false)
-  }
-
-  const spcPhotos = !!photos
-    ? photos.filter(function (photo) {
-        return photo.src.includes("spc")
-      })
-    : ""
-
   return (
     <Layout>
       <SEO title="Home" />
@@ -253,23 +232,8 @@ function SPCFinancialPage() {
 
       <section id="designs">
         <h3>Designs:</h3>
-        <Gallery photos={spcPhotos} onClick={openLightbox} />
+        <Gallery filter="spc" autoHeight />
       </section>
-
-      <ModalGateway>
-        {viewerIsOpen ? (
-          <Modal onClose={closeLightbox}>
-            <Carousel
-              currentIndex={currentImage}
-              views={spcPhotos.map((x) => ({
-                ...x,
-                srcset: x.srcSet,
-                caption: x.title,
-              }))}
-            />
-          </Modal>
-        ) : null}
-      </ModalGateway>
     </Layout>
   )
 }

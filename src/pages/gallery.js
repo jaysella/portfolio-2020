@@ -1,29 +1,15 @@
-import React, { useState, useCallback } from "react"
+import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import Navigation from "../components/Navigation"
+import Gallery from "../components/Gallery"
 
-import Gallery from "react-photo-gallery"
-import Carousel, { Modal, ModalGateway } from "react-images"
-import { photos } from "../assets/data/gallery-photos"
+import styles from "./p/project.module.sass"
 
 function GalleryPage() {
-  const [currentImage, setCurrentImage] = useState(0)
-  const [viewerIsOpen, setViewerIsOpen] = useState(false)
-
-  const openLightbox = useCallback((event, { photo, index }) => {
-    setCurrentImage(index)
-    setViewerIsOpen(true)
-  }, [])
-
-  const closeLightbox = () => {
-    setCurrentImage(0)
-    setViewerIsOpen(false)
-  }
-
   return (
     <Layout>
       <SEO title="Home" />
@@ -45,36 +31,89 @@ function GalleryPage() {
         </h1>
       </section>
 
-      <section>
-        <Navigation active="gallery" stuck />
+      <Navigation active="gallery" stuck />
 
-        {/* <Tabs>
-					<Tab tabTitle={'My Work'}>
-						<p>hello</p>
-					</Tab>
-					<Tab tabTitle={'Gallery'}>
-						<p>from</p>
-					</Tab>
-					<Tab tabTitle={'Contact'}>
-						<p>from</p>
-					</Tab>
-				</Tabs> */}
+      <section className={styles.project} id="website">
+        <h3>Digital Media:</h3>
 
-        <Gallery photos={photos} onClick={openLightbox} />
-        <ModalGateway>
-          {viewerIsOpen ? (
-            <Modal onClose={closeLightbox}>
-              <Carousel
-                currentIndex={currentImage}
-                views={photos.map((x) => ({
-                  ...x,
-                  srcset: x.srcSet,
-                  caption: x.title,
-                }))}
-              />
-            </Modal>
-          ) : null}
-        </ModalGateway>
+        <article className="details">
+          <div className="block">
+            <h4>
+              <mark>Websites</mark>
+            </h4>
+            <Gallery filter="website" autoHeight />
+          </div>
+
+          <div className="block">
+            <h4>
+              <mark>Email &amp; Social Media</mark>
+            </h4>
+            <Gallery filter="social" autoHeight maxThreeCols />
+          </div>
+
+          <div className="block">
+            <h4>
+              <mark>Presentations</mark>
+            </h4>
+            <Gallery filter="presentation" autoHeight />
+          </div>
+        </article>
+      </section>
+
+      <section className={styles.project} id="website">
+        <h3>Print Media:</h3>
+
+        <article className="details">
+          <div className="block">
+            <h4>
+              <mark>The Priory Press</mark>
+            </h4>
+            <Gallery filter="priory-press" autoHeight />
+            <p className="caption">
+              <em>
+                <b>View full editions</b>:{" "}
+                <a
+                  href="https://drive.google.com/file/d/11I9qMWeSkE1Iw3iHdc1HltpOPjQEhDQn/view"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Fall 2020
+                </a>{" "}
+                &bull;{" "}
+                <a
+                  href="https://drive.google.com/file/d/1urPRWoyeQKT1wyXEqQxobFJjmM2eK7KE/view"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Summer 2020
+                </a>{" "}
+                &bull;{" "}
+                <a
+                  href="https://drive.google.com/file/d/12I6lZJMbfuB5ktpmZUYRxYhmqH5cHJ6W/view"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  December 2019
+                </a>{" "}
+                &bull;{" "}
+                <a
+                  href="https://drive.google.com/file/d/10wh1EyCg5p6TJoyY_BVuBXvzBQjRth6t/view"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Fall 2019
+                </a>
+              </em>
+            </p>
+          </div>
+
+          <div className="block">
+            <h4>
+              <mark>The Priory Perspective</mark>
+            </h4>
+            <Gallery filter="priory-perspective" autoHeight />
+          </div>
+        </article>
       </section>
     </Layout>
   )

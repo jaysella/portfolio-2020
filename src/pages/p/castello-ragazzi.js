@@ -1,35 +1,14 @@
-import React, { useState, useCallback } from "react"
+import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 
+import Gallery from "../../components/Gallery"
+
 import styles from "./project.module.sass"
 
-import Gallery from "react-photo-gallery"
-import Carousel, { Modal, ModalGateway } from "react-images"
-import { photos } from "../../assets/data/gallery-photos"
-
 function CastelloRagazziPage() {
-  const [currentImage, setCurrentImage] = useState(0)
-  const [viewerIsOpen, setViewerIsOpen] = useState(false)
-
-  const openLightbox = useCallback((event, { photo, index }) => {
-    setCurrentImage(index)
-    setViewerIsOpen(true)
-  }, [])
-
-  const closeLightbox = () => {
-    setCurrentImage(0)
-    setViewerIsOpen(false)
-  }
-
-  const crPhotos = !!photos
-    ? photos.filter(function (photo) {
-        return photo.src.includes("castello")
-      })
-    : ""
-
   return (
     <Layout>
       <SEO title="Home" />
@@ -61,7 +40,7 @@ function CastelloRagazziPage() {
             </li>
             {/* <li><a href="#website">Website</a></li> */}
             <li>
-              <a href="#designs">Designs</a>
+              <a href="#website">Website</a>
             </li>
           </ul>
         </aside>
@@ -108,25 +87,10 @@ function CastelloRagazziPage() {
 				</article>
 			</section> */}
 
-      <section id="designs">
-        <h3>Designs:</h3>
-        <Gallery photos={crPhotos} onClick={openLightbox} />
+      <section id="website">
+        <h3>Website:</h3>
+        <Gallery filter="castello" />
       </section>
-
-      <ModalGateway>
-        {viewerIsOpen ? (
-          <Modal onClose={closeLightbox}>
-            <Carousel
-              currentIndex={currentImage}
-              views={crPhotos.map((x) => ({
-                ...x,
-                srcset: x.srcSet,
-                caption: x.title,
-              }))}
-            />
-          </Modal>
-        ) : null}
-      </ModalGateway>
     </Layout>
   )
 }
