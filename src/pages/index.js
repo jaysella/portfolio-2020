@@ -36,17 +36,6 @@ class IndexPage extends Component {
 
           <section>
             <Navigation active="myWork" />
-            {/* <Tabs>
-							<Tab tabTitle={'My Work'}>
-								<p>hello</p>
-							</Tab>
-							<Tab tabTitle={'Gallery'}>
-								<p>from</p>
-							</Tab>
-							<Tab tabTitle={'Contact'}>
-								<p>from</p>
-							</Tab>
-						</Tabs> */}
 
             <article className="project featured slideUp">
               <div className="left">
@@ -128,6 +117,17 @@ class IndexPage extends Component {
               </div>
             </article>
           </section>
+
+          <div className="callout">
+            <a
+              className="simple-link-light"
+              href="//drive.google.com/file/d/15uSXGIjPgtdbgbdv4neRQ2wAYWJOs48O/view"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Full Résumé <span className="upperRight">&rarr;</span>
+            </a>
+          </div>
 
           <section className={styles.other_projects}>
             <h3>Other Noteworthy Projects</h3>

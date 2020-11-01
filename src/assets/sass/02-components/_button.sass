@@ -49,7 +49,7 @@ button
 		span
 			transform: translateX(1.5rem) scale(1.5)
 
-.simple-link
+%simple-link
 	@extend %button
 	color: $accent-alt
 
@@ -58,3 +58,13 @@ button
 
 		span
 			transform: translateX(.5rem) scale(1.5)
+
+.simple-link
+	@extend %simple-link
+
+.simple-link-light
+	@extend %simple-link
+	color: $lighter
+
+	&:hover
+		color: $light

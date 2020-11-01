@@ -14,6 +14,16 @@ class Navigation extends Component {
             <Link to="/gallery">Design Gallery</Link>
           </li>
 
+          <li>
+            <a
+              href="//drive.google.com/file/d/15uSXGIjPgtdbgbdv4neRQ2wAYWJOs48O/view"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Résumé
+            </a>
+          </li>
+
           <li className={this.props.active === "contact" ? "active" : ""}>
             <Link to="/contact">Contact</Link>
           </li>
