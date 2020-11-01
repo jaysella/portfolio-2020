@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import { useState } from "react";
 import Img from "gatsby-image"
 
 import { Lightbox } from "react-modal-image"

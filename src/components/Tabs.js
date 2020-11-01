@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import { Children, cloneElement, Component } from "react";
 import PropTypes from "prop-types"
 
 export default class Tabs extends Component {
@@ -23,13 +23,13 @@ export default class Tabs extends Component {
 
   // Encapsulate <Tabs/> component API as props for <Tab/> children
   renderChildrenWithTabsApiAsProps() {
-    return React.Children.map(this.props.children, (child, index) => {
-      return React.cloneElement(child, {
+    return Children.map(this.props.children, (child, index) => {
+      return cloneElement(child, {
         onClick: this.handleTabClick,
         tabIndex: index,
         isActive: index === this.state.activeTabIndex,
-      })
-    })
+      });
+    });
   }
 
   // Render current active tab content
