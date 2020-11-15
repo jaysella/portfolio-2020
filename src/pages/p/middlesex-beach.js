@@ -67,8 +67,7 @@ function MiddlesexBeachPage({ data }) {
             <li>
               <span>
                 Designed, marketed, and sold{" "}
-                <mark>$6,000+ worth of merchandise</mark> for a community
-                fundraiser
+                <mark>$5K worth of merchandise</mark> for a community fundraiser
               </span>
             </li>
             <li>
