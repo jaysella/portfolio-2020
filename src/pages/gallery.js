@@ -72,6 +72,14 @@ function GalleryPage() {
               <em>
                 <b>Full editions</b>:{" "}
                 <a
+                  href="https://drive.google.com/file/d/1plAd0SYV6J-IfF5CkaOlCXNwTrsfDB7J/preview"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Thanksgiving 2020
+                </a>{" "}
+                &bull;{" "}
+                <a
                   href="https://drive.google.com/file/d/11I9qMWeSkE1Iw3iHdc1HltpOPjQEhDQn/preview"
                   target="_blank"
                   rel="noopener noreferrer"
