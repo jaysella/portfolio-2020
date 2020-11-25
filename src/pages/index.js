@@ -1,4 +1,4 @@
-import { Component } from "react";
+import { Component } from "react"
 import { graphql } from "gatsby"
 
 import { Link } from "gatsby"
@@ -121,7 +121,7 @@ class IndexPage extends Component {
           <div className="callout">
             <a
               className="simple-link-light"
-              href="//drive.google.com/file/d/15uSXGIjPgtdbgbdv4neRQ2wAYWJOs48O/view"
+              href="//drive.google.com/file/d/15uSXGIjPgtdbgbdv4neRQ2wAYWJOs48O/preview"
               target="_blank"
               rel="noopener noreferrer"
             >

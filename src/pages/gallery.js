@@ -72,7 +72,7 @@ function GalleryPage() {
               <em>
                 <b>Full editions</b>:{" "}
                 <a
-                  href="https://drive.google.com/file/d/11I9qMWeSkE1Iw3iHdc1HltpOPjQEhDQn/view"
+                  href="https://drive.google.com/file/d/11I9qMWeSkE1Iw3iHdc1HltpOPjQEhDQn/preview"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -80,7 +80,7 @@ function GalleryPage() {
                 </a>{" "}
                 &bull;{" "}
                 <a
-                  href="https://drive.google.com/file/d/1urPRWoyeQKT1wyXEqQxobFJjmM2eK7KE/view"
+                  href="https://drive.google.com/file/d/1urPRWoyeQKT1wyXEqQxobFJjmM2eK7KE/preview"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -88,7 +88,7 @@ function GalleryPage() {
                 </a>{" "}
                 &bull;{" "}
                 <a
-                  href="https://drive.google.com/file/d/12I6lZJMbfuB5ktpmZUYRxYhmqH5cHJ6W/view"
+                  href="https://drive.google.com/file/d/12I6lZJMbfuB5ktpmZUYRxYhmqH5cHJ6W/preview"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -96,7 +96,7 @@ function GalleryPage() {
                 </a>{" "}
                 &bull;{" "}
                 <a
-                  href="https://drive.google.com/file/d/10wh1EyCg5p6TJoyY_BVuBXvzBQjRth6t/view"
+                  href="https://drive.google.com/file/d/10wh1EyCg5p6TJoyY_BVuBXvzBQjRth6t/preview"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
