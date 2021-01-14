@@ -121,7 +121,7 @@ class IndexPage extends Component {
           <div className="callout">
             <a
               className="simple-link-light"
-              href="//drive.google.com/file/d/15uSXGIjPgtdbgbdv4neRQ2wAYWJOs48O/preview"
+              href="https://drive.google.com/file/d/1h5jeJlS0IDV2NU8nSgmuiHeMipClsEU4/preview"
               target="_blank"
               rel="noopener noreferrer"
             >
