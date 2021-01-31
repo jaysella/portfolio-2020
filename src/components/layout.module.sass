@@ -43,18 +43,18 @@
 
     &:active
       outline: none
-  
+
+    &:hover > .icon
+      transform: scale(1.1) translateY(-3px)
+      stroke: $black
+
   .icon
     width: 25px
     height: 25px
-    fill: $black-a5
+    stroke: $black-a5
     vertical-align: middle
     overflow: hidden
     transition: all .3s ease
-    
-    &:hover
-      transform: scale(1.1) translateY(-3px)
-      fill: $black
 
 footer
   color: $black

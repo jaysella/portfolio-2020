@@ -2,9 +2,10 @@ import { ThemeToggler } from "gatsby-plugin-dark-mode"
 
 import styles from "./layout.module.sass"
 
+import { ReactComponent as LinkedInLogo } from "../assets/images/linkedin.svg"
 import { ReactComponent as GitHubLogo } from "../assets/images/github.svg"
-import { ReactComponent as LightMode } from "../assets/images/light.svg"
-import { ReactComponent as DarkMode } from "../assets/images/dark.svg"
+import { ReactComponent as LightMode } from "../assets/images/sun.svg"
+import { ReactComponent as DarkMode } from "../assets/images/moon.svg"
 // import { ReactComponent as Logo } from '../assets/images/logo.svg'
 
 function LeftLinks() {
@@ -13,12 +14,22 @@ function LeftLinks() {
       <ul>
         <li>
           <a
+            href="https://linkedin.com/in/jay-sella"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn Profile"
+          >
+            <LinkedInLogo className={styles.icon} />
+          </a>
+        </li>
+        <li>
+          <a
             href="//github.com/j-651"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub Profile"
           >
-            <GitHubLogo className={styles.icon} viewBox="0 0 438.549 438.549" />
+            <GitHubLogo className={styles.icon} />
           </a>
         </li>
         {/* <li>
