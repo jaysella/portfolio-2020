@@ -1,0 +1,13 @@
+[build]
+  command = "npm run build"
+  publish = "public"
+
+  [[redirects]]
+    from = "https://media.jaysella.dev/*"
+    to = "https://res.cloudinary.com/jaysella/:splat"
+    status = 200
+
+  [[redirects]]
+    from = "https://media.jaysella.com/*"
+    to = "https://res.cloudinary.com/jaysella/:splat"
+    status = 200
