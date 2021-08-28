@@ -16,11 +16,13 @@
 
     p
         margin: 0
-    
+
     .block
         grid-area: additional
         line-height: 1.75
-        padding: 0 0 1.75em 0
+
+        &:not(:last-of-type)
+            padding: 0 0 1.75em 0
 
         &:not(:first-of-type)
             border-top: $border-width solid $white
@@ -29,7 +31,7 @@
         p
             &:not(:first-of-type)
                 margin-top: 1em
-            
+
             mark
                 background: $accent-alt-a25
                 color: $black

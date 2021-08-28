@@ -15,8 +15,14 @@
 		align-items: start
 		line-height: 1.25
 
+		span
+			line-height: 1.65
+
+		&:last-of-type
+			margin-bottom: 0
+
 		&:not(:first-of-type)
-			padding-top: .25rem
+			padding-top: .375rem
 
 		&:before
 			content: '→'
@@ -29,7 +35,7 @@
 			background: $accent-alt-a25
 			// background: linear-gradient(145deg, $accent 0%, $accent-alt 100%)
 			border-radius: $border-radius
-	
+
 	a
 		text-decoration: none
 		color: inherit

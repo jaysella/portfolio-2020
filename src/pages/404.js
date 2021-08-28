@@ -9,7 +9,7 @@ const NotFoundPage = () => (
     <SEO title="404: Not Found" />
     <section className="hero">
       <p className="preheader">Uh oh,</p>
-      <h1>You're trying to visit a page that doesn't exist.</h1>
+      <h1>This page does not exist.</h1>
       <br />
       <p>
         <Link to="/" className="button--prominent">

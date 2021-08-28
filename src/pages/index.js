@@ -1,19 +1,11 @@
 import { Component } from "react"
 import { graphql } from "gatsby"
-
 import { Link } from "gatsby"
 import Img from "gatsby-image"
-
 import propTypes from "prop-types"
-
 import Layout from "../components/layout"
-
 import styles from "./index.module.sass"
-// import Image from '../components/image'
 import SEO from "../components/seo"
-
-// import Tabs from '../components/Tabs'
-// import Tab from '../components/Tab'
 import Navigation from "../components/Navigation"
 
 class IndexPage extends Component {
@@ -71,8 +63,8 @@ class IndexPage extends Component {
                 <h4>Webmaster + Central Technology Consultant</h4>
                 <h2>Middlesex Beach Association</h2>
                 <p>
-                  I overhauled the HOA’s website, implemented a QR Code
-                  Verification System, and served as a central technology
+                  Overhauled the HOA’s website, implemented a QR code
+                  verification system, and served as a central technology
                   consultant for evaluating and maintaining the Association's
                   infrastructure.
                 </p>
@@ -101,7 +93,7 @@ class IndexPage extends Component {
                 <h4>Webmaster + Communications Officer</h4>
                 <h2>Castello Ragazzi, LLC</h2>
                 <p>
-                  I designed + developed a website marketing a beach rental
+                  Designed + developed a website marketing a beach rental
                   property, whilst managing communication with guests before,
                   during, and after their stay.
                 </p>

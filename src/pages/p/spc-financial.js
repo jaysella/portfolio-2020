@@ -33,7 +33,7 @@ function SPCFinancialPage() {
           </h1>
           <p className="info">
             A local investment advisory firm based in the Washington, D.C. Metro
-            area with nearly $1 billion in assets under advisement + management.
+            area with over $1.2 billion in assets under advisement + management.
           </p>
         </section>
 
@@ -62,22 +62,22 @@ function SPCFinancialPage() {
           <ul className="list">
             <li>
               <span>
-                Launched electronic invoicing and payment processing system via
-                Stripe, <mark>saving $1,000 in annual operating costs</mark> and
+                Launched electronic invoicing and payment processing with
+                Stripe, <mark>saving $1,000 in annual operating costs</mark> and{" "}
                 <mark>15 hours of employee time</mark> during the annual billing
                 cycle
               </span>
             </li>
             <li>
               <span>
-                Rolled out online appointment scheduling, handling neatly{" "}
-                <mark>600 appointments</mark> and saving{" "}
-                <mark>16 hours of employee time</mark> per month
+                Rolled out online appointment scheduling, reducing employee
+                workload by <mark>16 hours/month</mark> and handling{" "}
+                <mark>2,500 appointments</mark> since rollout
               </span>
             </li>
             <li>
               <span>
-                Implemented live chat with the firm's advisors, handling the
+                Implemented live chat with the firm's advisors, meeting the
                 needs of <mark>100 clients and prospects</mark> in the first
                 year
               </span>
@@ -101,12 +101,12 @@ function SPCFinancialPage() {
               Not long into the redesign process, it was decided it was time for
               a re-centering of the company. To match their now-modernized
               aesthetic, I crafted a new logo and assisted in the creation of a
-              new tagline. That tagline,{" "}
+              new tagline. That tagline &mdash;{" "}
               <i>
                 Finance on a Human Level<sup>&reg;</sup>
               </i>{" "}
-              is now a registered trademark with the United States Patent and
-              Trademark Office.
+              &mdash; is now a registered trademark with the United States
+              Patent and Trademark Office <small>(#88269408)</small>.
             </p>
           </div>
 
@@ -119,17 +119,14 @@ function SPCFinancialPage() {
               design, develop, and maintain their corporate website. I became
               involved to learn the inner workings of the firm’s Marketing
               department and assist in the maintenance and enhancement of their
-              website. However, whenever my team and I approached the contractor
-              about new site functionality, they often failed to deliver.
+              online presence. However, whenever our team approached the
+              contractor about implementing new site functionality, they often
+              failed to deliver.
             </p>
             <p>
               Ultimately, their reluctance to innovate became too much of a
               roadblock; it was time to design and build a new site, from
               scratch.
-            </p>
-            <p>
-              <b>&there4;</b> This was the time to see our visions through
-              &rarr; it was time to design + build a new site, from scratch.
             </p>
           </div>
 
@@ -138,31 +135,29 @@ function SPCFinancialPage() {
               <mark>Solution</mark>
             </h4>
             <p>
-              With a clean slate, I set out to modernize the content, design,
-              and feature set.
+              With a clean slate, I set out to modernize the site's content,
+              design, and feature set.
             </p>
             <p>
-              This project posed a unique challenge: how could we modernize the
-              site to appeal to younger, more tech-savvy audiences while
-              providing a familiar experience for older clients?
+              <b>This project posed a unique challenge</b>: how could we
+              modernize the site to appeal to younger, more tech-savvy audiences
+              while providing a familiar, intuitive experience for older
+              clients?
             </p>
             <p>
               The new design doubles down on SPC’s human-centric approach. I
-              worked with the team to refresh all website copy to incorporate
-              this new focus. I paid special attention when adding while also
-              optimizing ease of navigation. New features and functionality were
-              added without to avoid cluttering the page and overloading users.
+              worked with the team to incorporate this focus into all website
+              and marketing copy. New features and functionality were added to
+              bolster client services while also avoiding unnecessary clutter.
             </p>
             <p>
-              SPC's colors, blue and gold, remain prominent across the design to
-              keep a cohesive appearance both across the site and across the
-              firm’s print materials, apparel, and accessories. Finally, I
-              ensured the continued operation of old links to minimize
-              disruption to existing clients.
+              SPC's colors &mdash; blue and gold &mdash; remain prominent
+              throughout the new design to keep a cohesive appearance across
+              both the site and promotional materials such as apparel and
+              accessories. Finally, I ensured the continued operation of old
+              links to minimize disruption to existing clients.
             </p>
-            <p>
-              <b>&there4;</b> In the end, I spearheaded the implementation of:
-            </p>
+            <p>Throughout this project, I spearheaded the implementation of:</p>
             <ul className="list pb-0">
               <li>Advisor Live Chat</li>
               <li>Online Appointment Scheduling</li>
@@ -172,7 +167,7 @@ function SPCFinancialPage() {
             </ul>
           </div>
 
-          <div className="block">
+          {/* <div className="block">
             <h4>
               <mark>Tech Stack</mark>
             </h4>
@@ -182,28 +177,28 @@ function SPCFinancialPage() {
               with custom Stripe integrations thanks to Netlify's AWS Lambda
               Functions abilities.
             </p>
-          </div>
+          </div> */}
 
           <div className="block">
             <h4>
               <mark>Compliance + SEC Regulations</mark>
             </h4>
             <p>
-              Compliance, privacy, and security are key considerations in the
-              marketing process for a financial service firm.
+              Compliance, privacy, and security are key considerations when
+              developing new features for a financial service firm.
             </p>
             <p>
-              Throughout this project, I was in constant communication with the
-              firm's Chief Compliance Officer, VP of Marketing &amp;
-              Communications, and various teams in the broker-dealer's corporate
-              office including Advertising, Compliance, Risk Assessment, Social
-              Media, and Third-Party Vendors.
+              I was in constant communication with the firm's Chief Compliance
+              Officer, their VP of Marketing &amp; Communications, and various
+              teams in the broker-dealer's corporate office including
+              Advertising, Compliance, Risk Assessment, Social Media, and
+              Third-Party Vendors.
             </p>
             <p>
               This involvement included drafting disclaimers and disclosures,
               submitting third-party vendor security assessments for review,
-              managing multiple site versions in parallel, and also keeping and
-              reviewing audit logs for each change.
+              managing multiple site versions in parallel, and maintaining audit
+              logs for each change.
             </p>
           </div>
         </article>
@@ -218,12 +213,15 @@ function SPCFinancialPage() {
         <article className="details">
           <div className="block">
             <p>
-              Upon completing stylistic changes on SPC’s website, I embarked on
-              a mission to update other branch materials in partnership with
-              SPC’s marketing team. We created new marketing collateral
-              including presentation templates, logos, stationery,and business
-              cards. We also chose to extend the new tone and aesthetic to the
-              firm’s advertising campaigns.
+              Upon launching SPC’s revamped website, I began refreshing other
+              branch materials in partnership with the company's marketing team.
+              We designed new marketing collateral such as presentation
+              templates, advertisements, infographics, letterhead, and business
+              cards.
+            </p>
+            <p>
+              These new materials included the firm's human-centric focus at
+              their core.
             </p>
           </div>
         </article>

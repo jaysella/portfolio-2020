@@ -1,30 +1,9 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import PropTypes from "prop-types"
-// import { useStaticQuery, graphql } from "gatsby"
-
-// import Header from "./header"
 import LeftLinks from "./LeftLinks"
 
 const Layout = ({ children }) => {
-  // const data = useStaticQuery(graphql`
-  //   query SiteTitleQuery {
-  //     site {
-  //       siteMetadata {
-  //         title
-  //       }
-  //     }
-  //   }
-  // `)
-
   return (
     <>
-      {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
       <div
         style={{
           margin: `0 auto`,
@@ -36,22 +15,22 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <LeftLinks />
         <footer>
+          <p style={{ marginBottom: `0.375em` }}>
+            &copy; {new Date().getFullYear()} Jay Sella. All Rights Reserved.
+          </p>
           <p>
             <small>
-              Designed + coded from scratch in the Washington, D.C. area.
-              <br />
-              Some icons made by various contributors via{" "}
+              Designed + built in the Washington, D.C. area. Some icons made by
+              contributors via{" "}
               <a
                 href="//flaticon.com"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                www.flaticon.com
+                Flaticon
               </a>
               .
             </small>
-            <br />
-            &copy; {new Date().getFullYear()} Jay Sella. All Rights Reserved.
           </p>
         </footer>
       </div>

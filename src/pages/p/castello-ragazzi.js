@@ -1,10 +1,7 @@
 import { Link } from "gatsby"
-
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
-
 import Gallery from "../../components/Gallery"
-
 import styles from "./project.module.sass"
 
 function CastelloRagazziPage() {
@@ -27,7 +24,8 @@ function CastelloRagazziPage() {
           </p>
           <h1>Castello Ragazzi, LLC</h1>
           <p className="info">
-            Management company for a rental property along the Eastern Shore.
+            Management company for a summer rental property along the Eastern
+            Shore.
           </p>
         </section>
 
@@ -52,8 +50,7 @@ function CastelloRagazziPage() {
             <li>
               <span>
                 Designed, developed, and maintained website and rental listing
-                resulting in{" "}
-                <mark>10 rentals and $12k in revenue per year</mark>
+                leading to <mark>10 rentals and $12k in revenue per year</mark>
               </span>
             </li>
             <li>

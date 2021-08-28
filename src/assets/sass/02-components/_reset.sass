@@ -37,9 +37,9 @@ a
     outline-width: 0
 
 abbr[title]
-    border-bottom: none
-    text-decoration: underline
-    text-decoration: underline dotted
+  border-bottom: none
+  text-decoration: underline
+  text-decoration: underline dotted
 
 b, strong
   font-weight: inherit
@@ -54,11 +54,15 @@ h1
 
 mark
   // background-color: #ff0
+  display: inline
   color: #000
   background-color: $accent
   border-radius: $border-radius
-  padding: 0 2px
+  margin: 0 5px
+  padding: 0
   font-weight: bold
+  box-shadow: 5px 0 0 $accent, -5px 0 0 $accent
+  box-decoration-break: clone
 
 small
   font-size: 80%

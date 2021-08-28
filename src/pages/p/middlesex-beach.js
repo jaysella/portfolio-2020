@@ -1,9 +1,7 @@
 import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
-
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
-
 import styles from "./project.module.sass"
 
 function MiddlesexBeachPage({ data }) {
@@ -27,7 +25,7 @@ function MiddlesexBeachPage({ data }) {
           <h1>Middlesex Beach Association</h1>
           <p className="info">
             A Homeowners Association for a private community on the Eastern
-            Shore with nearly 250 properties.
+            Shore with 250 properties.
           </p>
         </section>
 
@@ -60,20 +58,20 @@ function MiddlesexBeachPage({ data }) {
               <span>
                 Crafted and engineered a{" "}
                 <i>Hologram &amp; QR Code Verification System</i>, responsible
-                for <mark>5,000+ scans</mark>/year{" "}
-                <small>(during peak summer months)</small>
+                for <mark>5,000+ scans/year</mark>{" "}
+                <small>(utilized during peak summer months)</small>
               </span>
             </li>
             <li>
               <span>
-                Designed, marketed, and sold{" "}
-                <mark>$5K worth of merchandise</mark> for a community fundraiser
+                Designed, marketed, and sold <mark>$5K of merchandise</mark> for
+                a community fundraiser
               </span>
             </li>
             <li>
               <span>
-                Established and managed the procedures and databases for
-                processing nearly <mark>1,000 owner profile changes</mark>,
+                Established and managed the procedures + databases for
+                processing nearly <mark>1,000 ownership profile changes</mark>,
                 resulting in a <mark>62% increase</mark> in reliable
                 communication channels
               </span>
@@ -98,13 +96,11 @@ function MiddlesexBeachPage({ data }) {
         <article className="project featured">
           <div className="left">
             <p>
-              When I assumed control of the HOA's website, there was
-              little-to-no style, making it near impossible to navigate and find
-              information. I set out to build a brand new website while
-              prioritizing the most commonly requested and searched for
-              information, standardizing formats, and focusing on ease of
-              navigation. Today, it is one of the most robust HOA websites in
-              the area.
+              When I assumed control of the HOA's website, it was not intuitive
+              and difficult to navigate. I set out to build a brand new website
+              while prioritizing the most commonly seeked information, while
+              prioritizing the most commonly seeked information. Today, it is
+              one of the most robust HOA websites in the area.
             </p>
 
             <div className="actions">
@@ -130,19 +126,22 @@ function MiddlesexBeachPage({ data }) {
           <span>&#8627;</span> Designed + Sold Products [Fundraiser]
         </p>
 
-        <article className="project text-only">
-          <div>
+        <article className="details">
+          <div className="block">
             <p>
               To enliven community spirit and generate revenue to lower HOA
-              fees, I designed and sold Middlesex-themed apparel, umbrellas, and
-              beach accessories. However, the team faced challenges from a
-              limited digital presence and uncertain demand. This also resulted
-              in the development of a website for people to view the products,
-              reserve their purchases, and communicate with our group. The
-              website was built in PHP with a MySQL database backend for
-              inventory management. Responsible for communications, I connected
-              both over a dedicated email and through Chatra, a live chat
-              service.
+              fees, I designed and sold Middlesex Beach-themed apparel,
+              umbrellas, and beach accessories.
+            </p>
+            <p>
+              We initially faced challenges from a limited digital presence and
+              uncertain demand. I transformed this into an opportunity and
+              developed a website to showcase our products, offer product
+              reservations, and communicate with our community. The website was
+              built in PHP with a MySQL database backend for inventory
+              management. Responsible for communications, I also connected with
+              potential customers over a dedicated email and through Chatra, a
+              live chat service.
             </p>
           </div>
         </article>
